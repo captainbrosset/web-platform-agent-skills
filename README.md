@@ -8,8 +8,8 @@ When using a coding AI agent, this skill can help you make better use of modern 
 
 ## Files
 
-- **`SKILL.md`** — The main skill file, with agent guidance for using web platform features, and catalog of features organized by category
-- **`groups/*.md`** — Complete searchable catalog of 1000+ web platform features organized by category
+- **`SKILL.md`** — The main skill file, with agent guidance for using web platform features, and catalog of features organized by category.
+- **`groups/*.md`** — Complete searchable catalog of recent web platform features organized by category.
 
 ## Use the skill in your project
 
