@@ -11,7 +11,7 @@ The `CreateVirtualPressureSource` WebDriver command creates artificial sources o
 **Spec:**
 - <https://w3c.github.io/compute-pressure/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 129
 - Chrome Android: 129
 - Edge: 129
@@ -27,7 +27,7 @@ The `CreateVirtualSensor` WebDriver command creates a virtual sensor for testing
 **Spec:**
 - <https://w3c.github.io/sensors/#automation>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 120
 - Chrome Android: 120
 - Edge: 120
@@ -43,7 +43,7 @@ The WebDriver protocol allows out-of-process programs to inspect and control bro
 **Spec:**
 - <https://w3c.github.io/webdriver/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: —
 - Chrome Android: —
 - Edge: —
@@ -62,7 +62,7 @@ WebDriver BiDi is a bidirectional protocol that allows a WebDriver client and a 
 **Spec:**
 - <https://w3c.github.io/webdriver-bidi/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 106
 - Chrome Android: 106
 - Edge: 106

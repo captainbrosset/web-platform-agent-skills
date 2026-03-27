@@ -10,25 +10,6 @@ This group of web platform features also includes the following sub-categories, 
 
 ## Storage features
 
-### localStorage and sessionStorage
-
-The `localStorage` and `sessionStorage` APIs store data as key-value pairs. While `localStorage` persists across sessions, `sessionStorage` data is discarded when the page is closed.
-
-**Spec:**
-- <https://storage.spec.whatwg.org/>
-
-**Browser support:**
-- Chrome: 4
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 3.5
-- Firefox for Android: 6
-- Safari: 4
-- Safari on iOS: 3.2
-
-**MDN:**
-- [Web Storage API](https://developer.mozilla.org/docs/Web/API/Web_Storage_API)
-
 ### Non-cookie storage access
 
 Non-cookie storage access extends the `requestStorageAccess()` API to let content in cross-site iframes request access to first-party data beyond cookies.
@@ -36,7 +17,7 @@ Non-cookie storage access extends the `requestStorageAccess()` API to let conten
 **Spec:**
 - <https://privacycg.github.io/saa-non-cookie-storage/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 125
 - Chrome Android: —
 - Edge: —
@@ -55,14 +36,7 @@ The `document.requestStorageAccess()` method allows content in iframes to reques
 **Spec:**
 - <https://privacycg.github.io/storage-access/>
 
-**Browser support:**
-- Chrome: 119
-- Chrome Android: 120
-- Edge: 85
-- Firefox: 65
-- Firefox for Android: 65
-- Safari: 11.1
-- Safari on iOS: 11.3
+**Baseline Newly Available since 2023-12-05**
 
 **MDN:**
 - [Storage Access API](https://developer.mozilla.org/docs/Web/API/Storage_Access_API)
@@ -74,7 +48,7 @@ The `navigator.storageBuckets` API allows you to organize locally stored data in
 **Spec:**
 - <https://wicg.github.io/storage-buckets/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 122
 - Chrome Android: 122
 - Edge: 122
@@ -90,14 +64,7 @@ The `navigator.storage` API provides information about the availability and pers
 **Spec:**
 - <https://storage.spec.whatwg.org/>
 
-**Browser support:**
-- Chrome: 61
-- Chrome Android: 61
-- Edge: 79
-- Firefox: 57
-- Firefox for Android: 57
-- Safari: 17
-- Safari on iOS: 17
+**Baseline Widely Available since 2026-03-18**
 
 **MDN:**
 - [Storage API](https://developer.mozilla.org/docs/Web/API/Storage_API)

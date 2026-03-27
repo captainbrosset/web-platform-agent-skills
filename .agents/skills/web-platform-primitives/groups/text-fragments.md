@@ -11,14 +11,7 @@ The `::target-text` pseudo-element allows you to style text highlighted by a URL
 **Spec:**
 - <https://drafts.csswg.org/css-pseudo-4/#selectordef-target-text>
 
-**Browser support:**
-- Chrome: 89
-- Chrome Android: 89
-- Edge: 89
-- Firefox: 131
-- Firefox for Android: 131
-- Safari: 18.2
-- Safari on iOS: 18.2
+**Baseline Newly Available since 2024-12-11**
 
 **MDN:**
 - [::target-text](https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::target-text)
@@ -30,14 +23,7 @@ Text fragments are URL fragments on the form `#:~:text=snippet` and link to a sn
 **Spec:**
 - <https://wicg.github.io/scroll-to-text-fragment/>
 
-**Browser support:**
-- Chrome: 80
-- Chrome Android: 80
-- Edge: 80
-- Firefox: 131
-- Firefox for Android: 131
-- Safari: 16.1
-- Safari on iOS: 16.1
+**Baseline Newly Available since 2024-10-01**
 
 **MDN:**
 - [Text fragments](https://developer.mozilla.org/docs/Web/URI/Reference/Fragment/Text_fragments)

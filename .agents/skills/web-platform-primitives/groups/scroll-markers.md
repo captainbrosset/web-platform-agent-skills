@@ -11,7 +11,7 @@ The `:target-current` CSS pseudo-class selects the active scroll marker (as in `
 **Spec:**
 - <https://drafts.csswg.org/css-overflow-5/#active-before-after-scroll-markers>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 142
 - Chrome Android: 142
 - Edge: 142
@@ -32,7 +32,7 @@ A scroll marker scrolls a container to a scroll target. The `::scroll-marker` CS
 **Spec:**
 - <https://drafts.csswg.org/css-overflow-5/#scroll-markers>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 135
 - Chrome Android: 135
 - Edge: 135
@@ -53,7 +53,7 @@ The `scroll-target-group` CSS property sets the container where anchor links act
 **Spec:**
 - <https://drafts.csswg.org/css-overflow-5/#scroll-target-group>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 140
 - Chrome Android: 140
 - Edge: 140

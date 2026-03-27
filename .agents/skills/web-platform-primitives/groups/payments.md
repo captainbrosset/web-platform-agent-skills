@@ -11,7 +11,7 @@ The payment handler API registers a web application as a payment handler and res
 **Spec:**
 - <https://w3c.github.io/web-based-payment-handler/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 70
 - Chrome Android: 70
 - Edge: 79
@@ -30,7 +30,7 @@ The `PaymentRequest` API prompts the user to make a payment through the browser'
 **Spec:**
 - <https://w3c.github.io/payment-request/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 60
 - Chrome Android: 53
 - Edge: 15
@@ -49,7 +49,7 @@ The `payment` extension of a web authentication credential allows a relying part
 **Spec:**
 - <https://w3c.github.io/secure-payment-confirmation/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 139
 - Chrome Android: 139
 - Edge: 139

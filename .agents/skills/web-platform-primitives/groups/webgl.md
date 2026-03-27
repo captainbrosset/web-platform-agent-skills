@@ -18,14 +18,7 @@ The `drawingBufferColorSpace` and `unpackColorSpace` properties of `WebGLRenderi
 - <https://registry.khronos.org/webgl/specs/latest/1.0/#DOM-WebGLRenderingContext-drawingBufferColorSpace>
 - <https://registry.khronos.org/webgl/specs/latest/1.0/#DOM-WebGLRenderingContext-unpackColorSpace>
 
-**Browser support:**
-- Chrome: 104
-- Chrome Android: 104
-- Edge: 104
-- Firefox: 132
-- Firefox for Android: 132
-- Safari: 16.4
-- Safari on iOS: 16.4
+**Baseline Newly Available since 2024-10-29**
 
 **MDN:**
 - [WebGLRenderingContext: drawingBufferColorSpace property](https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/drawingBufferColorSpace)
@@ -38,7 +31,7 @@ The optional `desynchronized` parameter of a canvas's `getContext()` method perm
 **Spec:**
 - <https://registry.khronos.org/webgl/specs/latest/1.0/#5.2.1>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 81
 - Chrome Android: 75
 - Edge: 79
@@ -55,7 +48,7 @@ The optional `desynchronized` parameter of a canvas's `getContext()` method perm
 - <https://registry.khronos.org/webgl/specs/latest/1.0/>
 - <https://registry.khronos.org/webgl/specs/latest/2.0/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 60
 - Chrome Android: 60
 - Edge: 79
@@ -67,22 +60,3 @@ The optional `desynchronized` parameter of a canvas's `getContext()` method perm
 **MDN:**
 - [WebGL: 2D and 3D graphics for the web](https://developer.mozilla.org/docs/Web/API/WebGL_API)
 - [SharedArrayBuffer](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer)
-
-### WebGL
-
-The `WebGLRenderingContext` API is the `"webgl"` rendering context for the `<canvas>` element. It represents a space for drawing two- and three-dimensional graphics and animations.
-
-**Spec:**
-- <https://registry.khronos.org/webgl/specs/latest/1.0/>
-
-**Browser support:**
-- Chrome: 9
-- Chrome Android: 25
-- Edge: 12
-- Firefox: 4
-- Firefox for Android: 4
-- Safari: 5.1
-- Safari on iOS: 8
-
-**MDN:**
-- [WebGL: 2D and 3D graphics for the web](https://developer.mozilla.org/docs/Web/API/WebGL_API)

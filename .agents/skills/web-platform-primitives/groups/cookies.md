@@ -11,7 +11,7 @@ The `CookieStore` API is an asynchronous and promise-based API for managing cook
 **Spec:**
 - <https://cookiestore.spec.whatwg.org/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 87
 - Chrome Android: 87
 - Edge: 87
@@ -30,37 +30,10 @@ The `navigator.cookieEnabled` property is a boolean for whether the browser acce
 **Spec:**
 - <https://html.spec.whatwg.org/multipage/system-state.html#cookies>
 
-**Browser support:**
-- Chrome: 1
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 1
-- Firefox for Android: 4
-- Safari: 18
-- Safari on iOS: 18
+**Baseline Newly Available since 2024-09-16**
 
 **MDN:**
 - [Navigator: cookieEnabled property](https://developer.mozilla.org/docs/Web/API/Navigator/cookieEnabled)
-
-### Cookies
-
-The `Set-Cookie` HTTP header stores limited amounts of data that persist across request and response, creating shared state between the browser and server.
-
-**Spec:**
-- <https://httpwg.org/specs/rfc6265.html>
-
-**Browser support:**
-- Chrome: 1
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 1
-- Firefox for Android: 4
-- Safari: 1
-- Safari on iOS: 1
-
-**MDN:**
-- [Set-Cookie header](https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Set-Cookie)
-- [Cookie header](https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Cookie)
 
 ### Partitioned cookies
 
@@ -69,7 +42,7 @@ Partitioned cookies allow you to opt a cookie into partitioned storage, with a s
 **Spec:**
 - <https://cookiestore.spec.whatwg.org/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 114
 - Chrome Android: 114
 - Edge: 114

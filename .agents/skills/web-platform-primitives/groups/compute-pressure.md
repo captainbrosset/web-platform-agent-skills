@@ -11,7 +11,7 @@ The `PressureObserver` API monitors CPU load, allowing you to adjust workloads i
 **Spec:**
 - <https://w3c.github.io/compute-pressure/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 125
 - Chrome Android: —
 - Edge: 125
@@ -30,7 +30,7 @@ The `CreateVirtualPressureSource` WebDriver command creates artificial sources o
 **Spec:**
 - <https://w3c.github.io/compute-pressure/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 129
 - Chrome Android: 129
 - Edge: 129

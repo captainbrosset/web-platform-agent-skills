@@ -11,7 +11,7 @@ The `navigator.gpu` API performs operations such as rendering and computation on
 **Spec:**
 - <https://gpuweb.github.io/gpuweb/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: —
 - Chrome Android: 121
 - Edge: —
@@ -22,20 +22,3 @@ The `navigator.gpu` API performs operations such as rendering and computation on
 
 **MDN:**
 - [WebGPU API](https://developer.mozilla.org/docs/Web/API/WebGPU_API)
-
-### WebGPU subgroups
-
-The subgroups extension for the WebGPU Shading Language (WGSL) enables SIMD parallelism. Using subgroups, threads in a workgroup can efficiently communicate and perform collective operations.
-
-**Spec:**
-- <https://gpuweb.github.io/gpuweb/#subgroups>
-- <https://gpuweb.github.io/gpuweb/wgsl/#extension-subgroups>
-
-**Browser support:**
-- Chrome: —
-- Chrome Android: —
-- Edge: —
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —

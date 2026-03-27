@@ -11,7 +11,7 @@ The `notRestoredReasons` property of a `PerformanceNavigationTiming` object expl
 **Spec:**
 - <https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-notrestoredreasons-interface>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 125
 - Chrome Android: 125
 - Edge: 125
@@ -31,7 +31,7 @@ The `element` performance entry and the `PerformanceElementTiming` API measures 
 **Spec:**
 - <https://w3c.github.io/element-timing/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 77
 - Chrome Android: 77
 - Edge: 79
@@ -50,14 +50,7 @@ The `event` and `first-input` performance entries and the `PerformanceEventTimin
 **Spec:**
 - <https://w3c.github.io/event-timing/>
 
-**Browser support:**
-- Chrome: 76
-- Chrome Android: 76
-- Edge: 79
-- Firefox: 89
-- Firefox for Android: 89
-- Safari: 26.2
-- Safari on iOS: 26.2
+**Baseline Newly Available since 2025-12-12**
 
 **MDN:**
 - [PerformanceEventTiming](https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming)
@@ -69,14 +62,7 @@ The `largest-contentful-paint` performance entry and the `LargestContentfulPaint
 **Spec:**
 - <https://w3c.github.io/largest-contentful-paint/>
 
-**Browser support:**
-- Chrome: 77
-- Chrome Android: 77
-- Edge: 79
-- Firefox: 122
-- Firefox for Android: 122
-- Safari: 26.2
-- Safari on iOS: 26.2
+**Baseline Newly Available since 2025-12-12**
 
 **MDN:**
 - [LargestContentfulPaint](https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint)
@@ -88,7 +74,7 @@ The `layout-shift` performance entry and `LayoutShift` API measures the layout s
 **Spec:**
 - <https://wicg.github.io/layout-instability/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 84
 - Chrome Android: 84
 - Edge: 84
@@ -107,7 +93,7 @@ The `long-animation-frame` performance event type and the `PerformanceLongAnimat
 **Spec:**
 - <https://w3c.github.io/long-animation-frames/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 123
 - Chrome Android: 123
 - Edge: 123
@@ -126,7 +112,7 @@ The `longtask` performance event type and the `PerformanceLongTaskTiming` API pr
 **Spec:**
 - <https://w3c.github.io/longtasks/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 58
 - Chrome Android: 58
 - Edge: 79
@@ -145,7 +131,7 @@ The `measureUserAgentSpecificMemory()` method estimates the memory usage of a we
 **Spec:**
 - <https://wicg.github.io/performance-measure-memory/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 89
 - Chrome Android: 89
 - Edge: 89
@@ -157,25 +143,6 @@ The `measureUserAgentSpecificMemory()` method estimates the memory usage of a we
 **MDN:**
 - [Performance: measureUserAgentSpecificMemory() method](https://developer.mozilla.org/docs/Web/API/Performance/measureUserAgentSpecificMemory)
 
-### Navigation timing
-
-The `navigation` performance entry and the `PerformanceNavigationTiming` API measures navigation events, such as loading time or the number of redirects.
-
-**Spec:**
-- <https://w3c.github.io/navigation-timing/>
-
-**Browser support:**
-- Chrome: 57
-- Chrome Android: 57
-- Edge: 12
-- Firefox: 58
-- Firefox for Android: 58
-- Safari: 15
-- Safari on iOS: 15.1
-
-**MDN:**
-- [Navigation timing](https://developer.mozilla.org/docs/Web/API/Performance_API/Navigation_timing)
-
 ### Page visibility state
 
 The `visibility-state` performance entry and the `VisibilityStateEntry` API measure the timing of page visibility state changes, such as when a tab is no longer visible or the user has switched to another app.
@@ -183,7 +150,7 @@ The `visibility-state` performance entry and the `VisibilityStateEntry` API meas
 **Spec:**
 - <https://html.spec.whatwg.org/multipage/interaction.html#the-visibilitystateentry-interface>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 115
 - Chrome Android: 115
 - Edge: 115
@@ -194,106 +161,3 @@ The `visibility-state` performance entry and the `VisibilityStateEntry` API meas
 
 **MDN:**
 - [VisibilityStateEntry](https://developer.mozilla.org/docs/Web/API/VisibilityStateEntry)
-
-### Paint timing
-
-The `paint` performance entry and the `PerformancePaintTiming` API measures the duration of "paint" (also called "render") operations as a page loads. The API measures the time to First Paint (FP) and First Contentful Paint (FCP), common metrics for perceived loading times.
-
-**Spec:**
-- <https://w3c.github.io/paint-timing/>
-
-**Browser support:**
-- Chrome: 60
-- Chrome Android: 60
-- Edge: 79
-- Firefox: 84
-- Firefox for Android: 84
-- Safari: 14.1
-- Safari on iOS: 14.5
-
-**MDN:**
-- [PerformancePaintTiming](https://developer.mozilla.org/docs/Web/API/PerformancePaintTiming)
-
-### Performance
-
-The `performance` global object and the `PerformanceObserver` API provide access to performance-related information for the current execution context.
-
-**Spec:**
-- <https://w3c.github.io/hr-time/>
-- <https://w3c.github.io/performance-timeline/>
-- <https://w3c.github.io/user-timing/#extensions-performance-interface>
-
-**Browser support:**
-- Chrome: 6
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 7
-- Firefox for Android: 7
-- Safari: 8
-- Safari on iOS: 9
-
-**MDN:**
-- [Performance APIs](https://developer.mozilla.org/docs/Web/API/Performance_API)
-
-### Resource size
-
-The `decodedBodySize`, `encodedBodySize`, and `transferSize` properties of the `PerformanceResourceTiming` API reports the size of resources loaded.
-
-**Spec:**
-- <https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-decodedbodysize>
-- <https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-encodedbodysize>
-- <https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-transfersize>
-
-**Browser support:**
-- Chrome: 54
-- Chrome Android: 54
-- Edge: 17
-- Firefox: 45
-- Firefox for Android: 45
-- Safari: 16.4
-- Safari on iOS: 16.4
-
-**MDN:**
-- [PerformanceResourceTiming: decodedBodySize property](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/decodedBodySize)
-- [PerformanceResourceTiming: encodedBodySize property](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/encodedBodySize)
-- [PerformanceResourceTiming: transferSize property](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/transferSize)
-
-### Resource timing
-
-`PerformanceResourceTiming` entries report when network events happen while loading a resource, such as when connections start and end. You can use this information to measure loading times.
-
-**Spec:**
-- <https://w3c.github.io/resource-timing/>
-
-**Browser support:**
-- Chrome: 29
-- Chrome Android: 29
-- Edge: 12
-- Firefox: 35
-- Firefox for Android: 35
-- Safari: 11
-- Safari on iOS: 11
-
-**MDN:**
-- [PerformanceResourceTiming: decodedBodySize property](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/decodedBodySize)
-- [PerformanceResourceTiming: encodedBodySize property](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/encodedBodySize)
-- [PerformanceResourceTiming: transferSize property](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/transferSize)
-
-### Server timing
-
-The `serverTiming` property of the `PerformanceResourceTiming` API contains server timing information about network requests.
-
-**Spec:**
-- <https://w3c.github.io/server-timing/>
-
-**Browser support:**
-- Chrome: 65
-- Chrome Android: 65
-- Edge: 79
-- Firefox: 61
-- Firefox for Android: 61
-- Safari: 16.4
-- Safari on iOS: 16.4
-
-**MDN:**
-- [PerformanceResourceTiming: serverTiming property](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/serverTiming)

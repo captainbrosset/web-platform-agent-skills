@@ -10,25 +10,6 @@ This group of web platform features also includes the following sub-categories, 
 
 ## Credential management features
 
-### Credential management
-
-The `navigator.credentials` API provides generic storage for authentication credentials. Other credential APIs represent specific kinds of credentials, such as password or public key credentials, that the credential management API stores.
-
-**Spec:**
-- <https://w3c.github.io/webappsec-credential-management/>
-
-**Browser support:**
-- Chrome: 60
-- Chrome Android: 60
-- Edge: 79
-- Firefox: 60
-- Firefox for Android: 60
-- Safari: 13
-- Safari on iOS: 13
-
-**MDN:**
-- [Credential Management API](https://developer.mozilla.org/docs/Web/API/Credential_Management_API)
-
 ### Federated credential management
 
 The `IdentityCredential` API delegates authentication to a third-party identity provider, instead of using third-party cookies. Also known as FedCM.
@@ -36,7 +17,7 @@ The `IdentityCredential` API delegates authentication to a third-party identity 
 **Spec:**
 - <https://w3c-fedid.github.io/FedCM/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 116
 - Chrome Android: 116
 - Edge: 116
@@ -55,7 +36,7 @@ The `FederatedCredential` API represents the details required to authenticate a 
 **Spec:**
 - <https://w3c.github.io/webappsec-credential-management/#federated>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 51
 - Chrome Android: 51
 - Edge: 79
@@ -74,7 +55,7 @@ The `PasswordCredential` API represents a username and password.
 **Spec:**
 - <https://w3c.github.io/webappsec-credential-management/#passwords>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 60
 - Chrome Android: 60
 - Edge: 79
@@ -93,7 +74,7 @@ The `OTPCredential` API represents a one-time-password (OTP).
 **Spec:**
 - <https://wicg.github.io/web-otp/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 93
 - Chrome Android: 84
 - Edge: 93

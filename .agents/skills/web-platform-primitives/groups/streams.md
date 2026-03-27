@@ -11,7 +11,7 @@ Asynchronous iteration of a stream allows you to use `for await … of` loops to
 **Spec:**
 - <https://streams.spec.whatwg.org/#rs-asynciterator>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 124
 - Chrome Android: 124
 - Edge: 124
@@ -30,7 +30,7 @@ A `ReadableStream` constructed with `{ type: "bytes" }` reads bytes from a strea
 **Spec:**
 - <https://streams.spec.whatwg.org/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 89
 - Chrome Android: 89
 - Edge: 89
@@ -49,7 +49,7 @@ The `ReadableStream.from()` static method converts an iterable or async iterable
 **Spec:**
 - <https://streams.spec.whatwg.org/#rs-from>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: —
 - Chrome Android: —
 - Edge: —
@@ -61,25 +61,6 @@ The `ReadableStream.from()` static method converts an iterable or async iterable
 **MDN:**
 - [ReadableStream: from() static method](https://developer.mozilla.org/docs/Web/API/ReadableStream/from_static)
 
-### Streams
-
-The streams API creates, composes, and consumes continuously generated data.
-
-**Spec:**
-- <https://streams.spec.whatwg.org/>
-
-**Browser support:**
-- Chrome: 67
-- Chrome Android: 67
-- Edge: 79
-- Firefox: 102
-- Firefox for Android: 102
-- Safari: 14.1
-- Safari on iOS: 14.5
-
-**MDN:**
-- [Streams API](https://developer.mozilla.org/docs/Web/API/Streams_API)
-
 ### Transferable streams
 
 Streams are transferable objects, which can be moved between contexts such as windows and workers.
@@ -87,7 +68,7 @@ Streams are transferable objects, which can be moved between contexts such as wi
 **Spec:**
 - <https://streams.spec.whatwg.org/#rs-transfer>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 87
 - Chrome Android: 87
 - Edge: 87
@@ -98,19 +79,3 @@ Streams are transferable objects, which can be moved between contexts such as wi
 
 **MDN:**
 - [Transferable objects](https://developer.mozilla.org/docs/Web/API/Web_Workers_API/Transferable_objects)
-
-### TransformStream transformer cancel() method
-
-The `cancel()` method of a `TransformStream` transformer cleans up resources when the readable side cancels or the writable side aborts.
-
-**Spec:**
-- <https://streams.spec.whatwg.org/#dom-transformer-cancel>
-
-**Browser support:**
-- Chrome: —
-- Chrome Android: —
-- Edge: —
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —

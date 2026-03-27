@@ -4,63 +4,6 @@ Media elements are `<audio>` and `<video>`, but the `<track>` element is also in
 
 ## Media elements features
 
-### `<audio>`
-
-The `<audio>` element plays sound such as audio effects or music, optionally with controls provided by the browser.
-
-**Spec:**
-- <https://html.spec.whatwg.org/multipage/media.html#audio>
-
-**Browser support:**
-- Chrome: 3
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 3.5
-- Firefox for Android: 4
-- Safari: 3.1
-- Safari on iOS: 3
-
-**MDN:**
-- [`<audio>`: The Embed Audio element](https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/audio)
-
-### `<source>`
-
-The `<source>` element sets a media resource for the `<picture>`, `<video>`, and `<audio>` elements.
-
-**Spec:**
-- <https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element>
-
-**Browser support:**
-- Chrome: 3
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 3.5
-- Firefox for Android: 4
-- Safari: 3.1
-- Safari on iOS: 2
-
-**MDN:**
-- [`<source>`: The Media or Image Source element](https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/source)
-
-### `<video>`
-
-The `<video>` element plays videos or movies, optionally with controls provided by the browser.
-
-**Spec:**
-- <https://html.spec.whatwg.org/multipage/media.html#video>
-
-**Browser support:**
-- Chrome: 3
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 3.5
-- Firefox for Android: 4
-- Safari: 3.1
-- Safari on iOS: 3
-
-**MDN:**
-- [`<video>`: The Video Embed element](https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/video)
-
 ### Audio and video tracks
 
 The `audioTracks` and `videoTracks` APIs for media elements switch audio and video tracks during playback.
@@ -68,7 +11,7 @@ The `audioTracks` and `videoTracks` APIs for media elements switch audio and vid
 **Spec:**
 - <https://html.spec.whatwg.org/multipage/media.html#media-resources-with-multiple-media-tracks>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: —
 - Chrome Android: —
 - Edge: —
@@ -88,7 +31,7 @@ The `captureStream()` method for `<audio>` and `<video>` elements returns a `Med
 **Spec:**
 - <https://w3c.github.io/mediacapture-fromelement/#html-media-element-media-capture-extensions>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 62
 - Chrome Android: 62
 - Edge: 79
@@ -107,7 +50,7 @@ The `controlslist` attribute for `<audio>` or `<video>` hides parts of the brows
 **Spec:**
 - <https://wicg.github.io/controls-list/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 58
 - Chrome Android: 58
 - Edge: 79
@@ -126,7 +69,7 @@ The `fastSeek()` method seeks an `<audio>` or `<video>` element as fast as possi
 **Spec:**
 - <https://html.spec.whatwg.org/multipage/media.html#dom-media-fastseek-dev>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: —
 - Chrome Android: —
 - Edge: —
@@ -138,22 +81,6 @@ The `fastSeek()` method seeks an `<audio>` or `<video>` element as fast as possi
 **MDN:**
 - [HTMLMediaElement: fastSeek() method](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/fastSeek)
 
-### Lazy-loading media
-
-The `loading="lazy"` attribute for `<video>` and `<audio>` elements defers loading the media resource until the element is near the viewport. This matches the lazy-loading behavior for `<img>` and `<iframe>` elements.
-
-**Spec:**
-- <https://github.com/whatwg/html/pull/11980>
-
-**Browser support:**
-- Chrome: —
-- Chrome Android: —
-- Edge: —
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —
-
 ### Media element pseudo-classes
 
 The `:playing`, `:paused`, `:seeking`, `:buffering`, `:stalled`, `:muted`, and `:volume-locked` CSS pseudo-classes match `<audio>` and `<video>` elements based on their state.
@@ -162,7 +89,7 @@ The `:playing`, `:paused`, `:seeking`, `:buffering`, `:stalled`, `:muted`, and `
 - <https://drafts.csswg.org/selectors-4/#resource-pseudos>
 - <https://html.spec.whatwg.org/multipage/semantics-other.html#pseudo-classes>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: —
 - Chrome Android: —
 - Edge: —
@@ -182,14 +109,7 @@ The `preservesPitch` property for `<audio>` or `<video>` adjusts the pitch of au
 **Spec:**
 - <https://html.spec.whatwg.org/multipage/media.html#dom-media-preservespitch-dev>
 
-**Browser support:**
-- Chrome: 86
-- Chrome Android: 86
-- Edge: 86
-- Firefox: 101
-- Firefox for Android: 101
-- Safari: 17.2
-- Safari on iOS: 17.2
+**Baseline Newly Available since 2023-12-11**
 
 **MDN:**
 - [HTMLMediaElement: preservesPitch property](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/preservesPitch)
@@ -201,34 +121,8 @@ The `requestVideoFrameCallback()` method for `<video>` schedules a function that
 **Spec:**
 - <https://wicg.github.io/video-rvfc/>
 
-**Browser support:**
-- Chrome: 83
-- Chrome Android: 83
-- Edge: 83
-- Firefox: 132
-- Firefox for Android: 132
-- Safari: 15.4
-- Safari on iOS: 15.4
+**Baseline Newly Available since 2024-10-29**
 
 **MDN:**
 - [HTMLVideoElement: cancelVideoFrameCallback() method](https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/cancelVideoFrameCallback)
 - [HTMLVideoElement: requestVideoFrameCallback() method](https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/requestVideoFrameCallback)
-
-### Text tracks
-
-The `<track>` element is used as a child of the media elements that lets you specify a timed text track to be displayed in parallel with the media element.
-
-**Spec:**
-- <https://html.spec.whatwg.org/multipage/media.html#timed-text-tracks>
-
-**Browser support:**
-- Chrome: 23
-- Chrome Android: 25
-- Edge: 12
-- Firefox: 31
-- Firefox for Android: 31
-- Safari: 6
-- Safari on iOS: 6
-
-**MDN:**
-- [`<track>`: The Embed Text Track element](https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/track)

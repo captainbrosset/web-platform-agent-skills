@@ -9,6 +9,10 @@ const WEB_FEATURES_MAPPINGS_URL =
 const WEB_FEATURES_GROUP_SOURCE_URL =
   "https://raw.githubusercontent.com/web-platform-dx/web-features/refs/heads/main/groups/";
 
+// Skip features that have been baseline for longer than this duration.
+// This covers the LLM knowledge cutoff — no need to document very old features.
+const MAX_BASELINE_AGE_YEARS = 3;
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_DIR = join(
   __dirname,
@@ -47,6 +51,20 @@ function codeTagsToBackticks(str) {
   return str.replace(/<code>([^<]+)<\/code>/g, "`$1`");
 }
 
+function isFeatureTooOld(feature) {
+  const lowDate = feature.status?.baseline_low_date;
+  if (!lowDate) return false;
+  const cutoff = new Date();
+  cutoff.setFullYear(cutoff.getFullYear() - MAX_BASELINE_AGE_YEARS);
+  return new Date(lowDate) < cutoff;
+}
+
+function hasAnyBrowserSupport(feature) {
+  const support = feature.status?.support;
+  if (!support) return false;
+  return Object.keys(support).length > 0;
+}
+
 function buildFeatureSection(featureId, feature, mappings) {
   const lines = [`### ${backtickTags(feature.name)}\n`];
   lines.push(decodeHtmlEntities(codeTagsToBackticks(feature.description_html)) + "\n");
@@ -60,9 +78,17 @@ function buildFeatureSection(featureId, feature, mappings) {
     lines.push("");
   }
 
-  // Browser compat
-  if (feature.status?.support) {
-    lines.push("**Browser support:**");
+  const baseline = feature.status?.baseline;
+  if (baseline === "high" || baseline === "low") {
+    // Baseline features: just show the date, no per-browser data
+    const date = baseline === "high"
+      ? feature.status.baseline_high_date
+      : feature.status.baseline_low_date;
+    const label = baseline === "high" ? "Baseline Widely Available" : "Baseline Newly Available";
+    lines.push(`**${label} since ${date}**\n`);
+  } else if (feature.status?.support) {
+    // Limited Availability: show per-browser support
+    lines.push("**Limited Availability — Browser support:**");
     for (const [key, label] of BROWSERS) {
       lines.push(`- ${label}: ${feature.status.support[key] ?? "—"}`);
     }
@@ -171,15 +197,29 @@ async function main() {
 
   // Build a map from group ID → list of [featureId, featureData]
   const groupFeatures = new Map();
+  let skippedOld = 0;
+  let skippedNoSupport = 0;
   for (const [id, feature] of Object.entries(features)) {
     if (feature.kind !== "feature") continue;
     if (feature.discouraged) continue;
     if (!feature.group) continue;
+
+    // Skip features that have been baseline for too long (LLMs already know these)
+    if (isFeatureTooOld(feature)) { skippedOld++; continue; }
+
+    // For Limited Availability, only include if at least one browser supports it
+    if (feature.status?.baseline === false && !hasAnyBrowserSupport(feature)) {
+      skippedNoSupport++;
+      continue;
+    }
+
     for (const groupId of feature.group) {
       if (!groupFeatures.has(groupId)) groupFeatures.set(groupId, []);
       groupFeatures.get(groupId).push([id, feature]);
     }
   }
+  console.log(`Skipped ${skippedOld} features with baseline older than ${MAX_BASELINE_AGE_YEARS} years`);
+  console.log(`Skipped ${skippedNoSupport} Limited Availability features with no browser support`);
 
   // Build a map from group ID → list of child group IDs
   const childGroups = new Map();

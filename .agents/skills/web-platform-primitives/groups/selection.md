@@ -11,7 +11,7 @@ The `::selection` CSS pseudo-element selects text a user has highlighted.
 **Spec:**
 - <https://drafts.csswg.org/css-pseudo-4/#selectordef-selection>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 1
 - Chrome Android: 18
 - Edge: 12
@@ -23,25 +23,6 @@ The `::selection` CSS pseudo-element selects text a user has highlighted.
 **MDN:**
 - [::selection](https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::selection)
 
-### Selection
-
-The Selection API controls and modifies user text selections within the page.
-
-**Spec:**
-- <https://w3c.github.io/selection-api/>
-
-**Browser support:**
-- Chrome: 11
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 52
-- Firefox for Android: 52
-- Safari: 5.1
-- Safari on iOS: 5
-
-**MDN:**
-- [Selection API](https://developer.mozilla.org/docs/Web/API/Selection_API)
-
 ### Selection composed ranges
 
 The `window.getSelection().getComposedRanges()` method returns ranges that represent the current user selection, even if the selection spans across shadow tree boundaries.
@@ -49,14 +30,7 @@ The `window.getSelection().getComposedRanges()` method returns ranges that repre
 **Spec:**
 - <https://w3c.github.io/selection-api/#dom-selection-getcomposedranges>
 
-**Browser support:**
-- Chrome: 137
-- Chrome Android: 137
-- Edge: 137
-- Firefox: 142
-- Firefox for Android: 142
-- Safari: 17
-- Safari on iOS: 17
+**Baseline Newly Available since 2025-08-19**
 
 **MDN:**
 - [Selection: getComposedRanges() method](https://developer.mozilla.org/docs/Web/API/Selection/getComposedRanges)
@@ -68,7 +42,7 @@ The `text-decoration` CSS property in a `::selection` rule sets the underline an
 **Spec:**
 - <https://drafts.csswg.org/css-pseudo-4/#highlight-styling>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 105
 - Chrome Android: 105
 - Edge: 105

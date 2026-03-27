@@ -4,22 +4,6 @@ Progressive web apps is built with web technologies, but has capabilities simila
 
 ## Progressive web app features
 
-### `<install>`
-
-The `<install>` HTML element represents a button that, upon activation, prompts the user to choose whether to install a progressive web app.
-
-**Spec:**
-- <https://github.com/WICG/install-element>
-
-**Browser support:**
-- Chrome: —
-- Chrome Android: —
-- Edge: —
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —
-
 ### `<meta name="application-title">`
 
 The `name="application-title"` attribute for the `<meta>` HTML element sets an installed web application's title bar text.
@@ -27,7 +11,7 @@ The `name="application-title"` attribute for the `<meta>` HTML element sets an i
 **Spec:**
 - <https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/DocumentSubtitle/explainer.md>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 134
 - Chrome Android: 134
 - Edge: 134
@@ -46,7 +30,7 @@ The `shortcuts` web app manifest member registers common actions of an installed
 **Spec:**
 - <https://w3c.github.io/manifest/#shortcuts-member>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 96
 - Chrome Android: 84
 - Edge: 96
@@ -65,7 +49,7 @@ The `beforeinstallprompt` event fires when a Progressive Web App (PWA) is instal
 **Spec:**
 - <https://wicg.github.io/manifest-incubations/#installation-events>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 76
 - Chrome Android: 76
 - Edge: 79
@@ -84,7 +68,7 @@ The `file_handlers` web app manifest member registers an installed web app as a 
 **Spec:**
 - <https://wicg.github.io/manifest-incubations/#file_handlers-member>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 102
 - Chrome Android: —
 - Edge: 102
@@ -103,7 +87,7 @@ The `launch_handler` web app manifest member, with the `client_mode` property, c
 **Spec:**
 - <https://wicg.github.io/web-app-launch/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 110
 - Chrome Android: —
 - Edge: 110
@@ -115,22 +99,6 @@ The `launch_handler` web app manifest member, with the `client_mode` property, c
 **MDN:**
 - [Launch Handler API](https://developer.mozilla.org/docs/Web/API/Launch_Handler_API)
 
-### navigator.install()
-
-The `navigator.install()` method triggers a request to install a progressive web app.
-
-**Spec:**
-- <https://github.com/w3c/manifest/pull/1175>
-
-**Browser support:**
-- Chrome: —
-- Chrome Android: —
-- Edge: —
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —
-
 ### Protocol handlers
 
 The `protocol_handlers` web app manifest member registers an installed web app as a handler for a specific protocol. When a user follows a link with the specified protocol, the installed app opens the link.
@@ -138,7 +106,7 @@ The `protocol_handlers` web app manifest member registers an installed web app a
 **Spec:**
 - <https://wicg.github.io/manifest-incubations/#protocol_handlers-member>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 96
 - Chrome Android: —
 - Edge: 96
@@ -157,7 +125,7 @@ The `related_applications` web app manifest member lists operating system-specif
 **Spec:**
 - <https://wicg.github.io/get-installed-related-apps/spec/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: —
 - Chrome Android: 84
 - Edge: 85
@@ -178,7 +146,7 @@ The `share_target` web app manifest member registers an installed web app as a h
 **Spec:**
 - <https://w3c.github.io/web-share-target/#share_target-member>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 89
 - Chrome Android: 76
 - Edge: 89
@@ -197,7 +165,7 @@ A web app manifest file provides metadata about the site. The browser can use th
 **Spec:**
 - <https://w3c.github.io/manifest/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 53
 - Chrome Android: 53
 - Edge: 79
@@ -209,22 +177,6 @@ A web app manifest file provides metadata about the site. The browser can use th
 **MDN:**
 - [Web application manifest](https://developer.mozilla.org/docs/Web/Progressive_web_apps/Manifest)
 
-### Web app manifest localization
-
-The `_localized` suffixed members of the web app manifest set translated names, descriptions, icons, and shortcuts. The browser automatically selects resources based on the user's language and region settings.
-
-**Spec:**
-- <https://w3c.github.io/manifest/#localized-members>
-
-**Browser support:**
-- Chrome: —
-- Chrome Android: —
-- Edge: —
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —
-
 ### Window Controls Overlay
 
 The `display_override: ["window-controls-overlay"]` web application manifest member shows content in the title bar area of a progressive web app that is installed on a desktop device.
@@ -232,7 +184,7 @@ The `display_override: ["window-controls-overlay"]` web application manifest mem
 **Spec:**
 - <https://wicg.github.io/window-controls-overlay/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 105
 - Chrome Android: —
 - Edge: 105

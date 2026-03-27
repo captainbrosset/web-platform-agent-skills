@@ -17,7 +17,7 @@ The `::column` CSS pseudo-element represents the individual columns of a multi-c
 **Spec:**
 - <https://drafts.csswg.org/css-multicol-2/#column-pseudo>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 135
 - Chrome Android: 135
 - Edge: 135
@@ -29,25 +29,6 @@ The `::column` CSS pseudo-element represents the individual columns of a multi-c
 **MDN:**
 - [::column](https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::column)
 
-### ::scroll-button
-
-The `::scroll-button(<dir>)` CSS pseudo-element is a focusable button which scrolls its originating scroll container element in the specified direction.
-
-**Spec:**
-- <https://drafts.csswg.org/css-overflow-5/#scroll-buttons>
-
-**Browser support:**
-- Chrome: —
-- Chrome Android: —
-- Edge: —
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —
-
-**MDN:**
-- [::scroll-button()](https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::scroll-button)
-
 ### overflow-anchor
 
 The `overflow-anchor` CSS property sets an element as a possible scroll anchor, reducing unintended scrolling when document changes occur above the current scrollport. This is enabled by default where supported.
@@ -55,7 +36,7 @@ The `overflow-anchor` CSS property sets an element as a possible scroll anchor, 
 **Spec:**
 - <https://drafts.csswg.org/css-scroll-anchoring-1/#exclusion-api>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 56
 - Chrome Android: 56
 - Edge: 79
@@ -68,44 +49,6 @@ The `overflow-anchor` CSS property sets an element as a possible scroll anchor, 
 - [Overview of scroll anchoring](https://developer.mozilla.org/docs/Web/CSS/Guides/Scroll_anchoring/Overview)
 - [overflow-anchor](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-anchor)
 
-### overscroll-behavior
-
-The `overscroll-behavior` CSS property disables default scrolling behaviors when the edges of a scrolling area are reached.
-
-**Spec:**
-- <https://drafts.csswg.org/css-overscroll-1/>
-
-**Browser support:**
-- Chrome: 63
-- Chrome Android: 63
-- Edge: 18
-- Firefox: 59
-- Firefox for Android: 59
-- Safari: 16
-- Safari on iOS: 16
-
-**MDN:**
-- [overscroll-behavior](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior)
-
-### Scroll snap
-
-CSS scroll snap controls the panning and scrolling behavior within a scroll container.
-
-**Spec:**
-- <https://drafts.csswg.org/css-scroll-snap-2/>
-
-**Browser support:**
-- Chrome: 69
-- Chrome Android: 69
-- Edge: 79
-- Firefox: 68
-- Firefox for Android: 68
-- Safari: 11
-- Safari on iOS: 11
-
-**MDN:**
-- [CSS scroll snap](https://developer.mozilla.org/docs/Web/CSS/Guides/Scroll_snap)
-
 ### Scroll snap events
 
 The `scrollsnapchanging` and `scrollsnapchange` events fire when a scroll gesture changes the selected scroll snap target.
@@ -113,7 +56,7 @@ The `scrollsnapchanging` and `scrollsnapchange` events fire when a scroll gestur
 **Spec:**
 - <https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchange-and-scrollsnapchanging>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 129
 - Chrome Android: 129
 - Edge: 129
@@ -133,36 +76,10 @@ Text fragments are URL fragments on the form `#:~:text=snippet` and link to a sn
 **Spec:**
 - <https://wicg.github.io/scroll-to-text-fragment/>
 
-**Browser support:**
-- Chrome: 80
-- Chrome Android: 80
-- Edge: 80
-- Firefox: 131
-- Firefox for Android: 131
-- Safari: 16.1
-- Safari on iOS: 16.1
+**Baseline Newly Available since 2024-10-01**
 
 **MDN:**
 - [Text fragments](https://developer.mozilla.org/docs/Web/URI/Reference/Fragment/Text_fragments)
-
-### scroll-behavior
-
-The `scroll-behavior` CSS property controls whether scrolling is smooth or snaps, for scroll actions not performed by the user such as those triggered by navigation.
-
-**Spec:**
-- <https://drafts.csswg.org/css-overflow-3/#smooth-scrolling>
-
-**Browser support:**
-- Chrome: 61
-- Chrome Android: 61
-- Edge: 79
-- Firefox: 36
-- Firefox for Android: 36
-- Safari: 15.4
-- Safari on iOS: 15.4
-
-**MDN:**
-- [scroll-behavior](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-behavior)
 
 ### Scroll-driven animations
 
@@ -171,7 +88,7 @@ The `animation-timeline`, `scroll-timeline`, and `view-timeline` CSS properties 
 **Spec:**
 - <https://drafts.csswg.org/scroll-animations-1/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 115
 - Chrome Android: 115
 - Edge: 115
@@ -190,14 +107,7 @@ The `scrollbar-color` CSS property sets the color of the scrollbar track and thu
 **Spec:**
 - <https://drafts.csswg.org/css-scrollbars-1/#scrollbar-color>
 
-**Browser support:**
-- Chrome: 121
-- Chrome Android: 121
-- Edge: 121
-- Firefox: 64
-- Firefox for Android: 64
-- Safari: 26.2
-- Safari on iOS: 26.2
+**Baseline Newly Available since 2025-12-12**
 
 **MDN:**
 - [scrollbar-color](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scrollbar-color)
@@ -209,14 +119,7 @@ The `scrollbar-gutter` CSS property reserves space for the scrollbar, preventing
 **Spec:**
 - <https://drafts.csswg.org/css-overflow-3/#scrollbar-gutter-property>
 
-**Browser support:**
-- Chrome: 94
-- Chrome Android: 94
-- Edge: 94
-- Firefox: 97
-- Firefox for Android: 97
-- Safari: 18.2
-- Safari on iOS: 18.2
+**Baseline Newly Available since 2024-12-11**
 
 **MDN:**
 - [scrollbar-gutter](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scrollbar-gutter)
@@ -228,14 +131,7 @@ The `scrollbar-width` CSS property sets the width of the scrollbar.
 **Spec:**
 - <https://drafts.csswg.org/css-scrollbars-1/#scrollbar-width>
 
-**Browser support:**
-- Chrome: 121
-- Chrome Android: 121
-- Edge: 121
-- Firefox: 64
-- Firefox for Android: 64
-- Safari: 18.2
-- Safari on iOS: 18.2
+**Baseline Newly Available since 2024-12-11**
 
 **MDN:**
 - [scrollbar-width](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scrollbar-width)
@@ -247,36 +143,10 @@ The `scrollend` event fires when an element or document has finished scrolling.
 **Spec:**
 - <https://drafts.csswg.org/cssom-view-1/#eventdef-document-scrollend>
 
-**Browser support:**
-- Chrome: 114
-- Chrome Android: 114
-- Edge: 114
-- Firefox: 109
-- Firefox for Android: 109
-- Safari: 26.2
-- Safari on iOS: 26.2
+**Baseline Newly Available since 2025-12-12**
 
 **MDN:**
 - [Document: scrollend event](https://developer.mozilla.org/docs/Web/API/Document/scrollend_event)
-
-### scrollIntoView()
-
-The `scrollIntoView()` method scrolls an element's ancestor containers such that the element is visible to the user.
-
-**Spec:**
-- <https://drafts.csswg.org/cssom-view-1/#dom-element-scrollintoview>
-
-**Browser support:**
-- Chrome: 1
-- Chrome Android: 18
-- Edge: 79
-- Firefox: 1
-- Firefox for Android: 4
-- Safari: 3
-- Safari on iOS: 1
-
-**MDN:**
-- [Element: scrollIntoView() method](https://developer.mozilla.org/docs/Web/API/Element/scrollIntoView)
 
 ### scrollIntoView() container
 
@@ -285,7 +155,7 @@ The `container` option of the `scrollIntoView()` method sets which ancestor scro
 **Spec:**
 - <https://drafts.csswg.org/cssom-view-1/#dom-scrollintoviewoptions-container>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 140
 - Chrome Android: 140
 - Edge: 140

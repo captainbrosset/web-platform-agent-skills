@@ -11,7 +11,7 @@ An `XRAnchor` object keeps track of a pose that is fixed relative to the real wo
 **Spec:**
 - <https://immersive-web.github.io/anchors/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 85
 - Chrome Android: 85
 - Edge: 85
@@ -30,7 +30,7 @@ The `"immersive-ar"` value for `navigator.xr.requestSession()` starts an augment
 **Spec:**
 - <https://immersive-web.github.io/webxr-ar-module/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 86
 - Chrome Android: 86
 - Edge: 86
@@ -49,7 +49,7 @@ An `XRDepthInformation` object represents a measurement of the distance from the
 **Spec:**
 - <https://immersive-web.github.io/depth-sensing/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 90
 - Chrome Android: 90
 - Edge: 90
@@ -68,7 +68,7 @@ A DOM overlay shows 2D DOM content as an interactive, transparent layer on top o
 **Spec:**
 - <https://immersive-web.github.io/dom-overlays/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 83
 - Chrome Android: 83
 - Edge: 83
@@ -87,7 +87,7 @@ The `gamepad` attribute of an `XRInputSource` represents an XR input device, suc
 **Spec:**
 - <https://immersive-web.github.io/webxr-gamepads-module/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 79
 - Chrome Android: 79
 - Edge: 79
@@ -106,7 +106,7 @@ An `XRHand` object, from the `hand` attribute of an `XRInputSource` object, repr
 **Spec:**
 - <https://immersive-web.github.io/webxr-hand-input/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 131
 - Chrome Android: 131
 - Edge: —
@@ -125,7 +125,7 @@ The `getHitTestResults()` method of an `XRFrame` object helps place objects in a
 **Spec:**
 - <https://immersive-web.github.io/hit-test/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 81
 - Chrome Android: 81
 - Edge: 81
@@ -137,25 +137,6 @@ The `getHitTestResults()` method of an `XRFrame` object helps place objects in a
 **MDN:**
 - [XRFrame: getHitTestResults() method](https://developer.mozilla.org/docs/Web/API/XRFrame/getHitTestResults)
 
-### Layers (WebXR)
-
-WebXR layer types, such as `XRCylinderLayer`, `XRCylinderLayer`, `XREquirectLayer`, `XRProjectionLayer` or `XRQuadLayer`, are managed by the system compositor, to reduce latency or resampling.
-
-**Spec:**
-- <https://immersive-web.github.io/layers/>
-
-**Browser support:**
-- Chrome: —
-- Chrome Android: —
-- Edge: —
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —
-
-**MDN:**
-- [XRCompositionLayer](https://developer.mozilla.org/docs/Web/API/XRCompositionLayer)
-
 ### Lighting estimation
 
 The `XRLightProbe` and `XRLightEstimate` objects represent real-world environmental lighting conditions during a WebXR session.
@@ -163,7 +144,7 @@ The `XRLightProbe` and `XRLightEstimate` objects represent real-world environmen
 **Spec:**
 - <https://immersive-web.github.io/lighting-estimation/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 90
 - Chrome Android: 90
 - Edge: 90
@@ -183,7 +164,7 @@ The `XRView.camera` property provides direct access to pose-synchronized camera 
 **Spec:**
 - <https://immersive-web.github.io/raw-camera-access/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 107
 - Chrome Android: 107
 - Edge: 107
@@ -202,7 +183,7 @@ The `navigator.xr` API represents the browser's virtual reality or augmented rea
 **Spec:**
 - <https://immersive-web.github.io/webxr/>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 79
 - Chrome Android: 79
 - Edge: 79

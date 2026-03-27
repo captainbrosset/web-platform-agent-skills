@@ -4,25 +4,6 @@ https://drafts.csswg.org/css-conditional-5/#container-queries
 
 ## Container queries features
 
-### Container queries
-
-Container size queries with the `@container` at-rule apply styles to an element based on the dimensions of its container.
-
-**Spec:**
-- <https://drafts.csswg.org/css-conditional-5/#container-queries>
-
-**Browser support:**
-- Chrome: 105
-- Chrome Android: 105
-- Edge: 105
-- Firefox: 110
-- Firefox for Android: 110
-- Safari: 16
-- Safari on iOS: 16
-
-**MDN:**
-- [CSS container queries](https://developer.mozilla.org/docs/Web/CSS/Guides/Containment/Container_queries)
-
 ### Container scroll-state queries
 
 Container scroll-state queries with the `@container scroll-state(...)` at-rule apply styles to an element based on the sticky positioning, snapped, and scrollable state of the container.
@@ -30,7 +11,7 @@ Container scroll-state queries with the `@container scroll-state(...)` at-rule a
 **Spec:**
 - <https://drafts.csswg.org/css-conditional-5/#scroll-state-container>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 133
 - Chrome Android: 133
 - Edge: 133
@@ -49,7 +30,7 @@ Container style queries with the `@container` at-rule apply styles to an element
 **Spec:**
 - <https://drafts.csswg.org/css-conditional-5/#style-container>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 111
 - Chrome Android: 111
 - Edge: 111
@@ -68,7 +49,7 @@ The `@container style()` CSS at-rule and `if(style())` CSS function queries acce
 **Spec:**
 - <https://drafts.csswg.org/css-conditional-5/#typedef-style-range>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 142
 - Chrome Android: 142
 - Edge: 142

@@ -4,25 +4,6 @@ Web platform features about Gamepad
 
 ## Gamepad features
 
-### Gamepad
-
-The `navigator.getGamepads()` API accesses and responds to signals from game controllers.
-
-**Spec:**
-- <https://w3c.github.io/gamepad/>
-
-**Browser support:**
-- Chrome: 35
-- Chrome Android: 35
-- Edge: 12
-- Firefox: 29
-- Firefox for Android: 32
-- Safari: 10.1
-- Safari on iOS: 10.3
-
-**MDN:**
-- [Gamepad API](https://developer.mozilla.org/docs/Web/API/Gamepad_API)
-
 ### Gamepad haptic feedback
 
 The `gamepad.vibrationActuator` property represents a gamepad's haptics hardware, which allows you to control the vibration motors in a gamepad.
@@ -30,7 +11,7 @@ The `gamepad.vibrationActuator` property represents a gamepad's haptics hardware
 **Spec:**
 - <https://w3c.github.io/gamepad/#gamepadhapticactuator-interface>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 68
 - Chrome Android: 68
 - Edge: 79
@@ -50,7 +31,7 @@ The `touched` property of a `GamepadButton` object indicates whether a button ca
 **Spec:**
 - <https://w3c.github.io/gamepad/#dom-gamepadbutton-touched>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 73
 - Chrome Android: 73
 - Edge: 15
@@ -69,7 +50,7 @@ The `hand` and `pose` properties of a `Gamepad` object represent the position in
 **Spec:**
 - <https://w3c.github.io/gamepad/extensions.html>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: —
 - Chrome Android: —
 - Edge: —

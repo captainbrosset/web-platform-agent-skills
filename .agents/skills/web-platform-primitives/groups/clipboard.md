@@ -11,38 +11,10 @@ The `navigator.clipboard` API asynchronously reads and writes to the system clip
 **Spec:**
 - <https://w3c.github.io/clipboard-apis/#async-clipboard-api>
 
-**Browser support:**
-- Chrome: 76
-- Chrome Android: 76
-- Edge: 79
-- Firefox: 127
-- Firefox for Android: 127
-- Safari: 13.1
-- Safari on iOS: 13.4
+**Baseline Newly Available since 2024-06-11**
 
 **MDN:**
 - [Clipboard API](https://developer.mozilla.org/docs/Web/API/Clipboard_API)
-
-### Clipboard events
-
-The `"copy"`, `"cut"`, and `"paste"` events fire on elements when the user starts an action with the clipboard.
-
-**Spec:**
-- <https://w3c.github.io/clipboard-apis/#clipboard-event-interfaces>
-
-**Browser support:**
-- Chrome: 41
-- Chrome Android: 41
-- Edge: 12
-- Firefox: 22
-- Firefox for Android: 22
-- Safari: 10.1
-- Safari on iOS: 10.3
-
-**MDN:**
-- [Element: copy event](https://developer.mozilla.org/docs/Web/API/Element/copy_event)
-- [Element: cut event](https://developer.mozilla.org/docs/Web/API/Element/cut_event)
-- [Element: paste event](https://developer.mozilla.org/docs/Web/API/Element/paste_event)
 
 ### clipboardchange
 
@@ -51,7 +23,7 @@ The `clipboardchange` event for `navigator.clipboard` fires when the user modifi
 **Spec:**
 - <https://w3c.github.io/clipboard-apis/#clipboard-event-clipboardchange>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 144
 - Chrome Android: 144
 - Edge: 144
@@ -73,14 +45,7 @@ The `ClipboardItem.supports()` static method checks if the browser supports writ
 **Spec:**
 - <https://w3c.github.io/clipboard-apis/#dom-clipboarditem-supports>
 
-**Browser support:**
-- Chrome: 121
-- Chrome Android: 121
-- Edge: 121
-- Firefox: 127
-- Firefox for Android: 127
-- Safari: 18.4
-- Safari on iOS: 18.4
+**Baseline Newly Available since 2025-03-31**
 
 **MDN:**
 - [ClipboardItem: supports() static method](https://developer.mozilla.org/docs/Web/API/ClipboardItem/supports_static)
@@ -92,7 +57,7 @@ The `web ` prefix for `ClipboardItem` data types (also known as MIME types) allo
 **Spec:**
 - <https://w3c.github.io/clipboard-apis/#optional-data-types-x>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 104
 - Chrome Android: 104
 - Edge: 104
@@ -112,7 +77,7 @@ The optional `formats.unsanitized` parameter of the `navigator.clipboard.read()`
 **Spec:**
 - <https://w3c.github.io/clipboard-apis/#dom-clipboardunsanitizedformats-unsanitized>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 122
 - Chrome Android: 122
 - Edge: 122
@@ -131,7 +96,7 @@ The `image/svg+xml` data type (also known as the MIME type) for `ClipboardItem` 
 **Spec:**
 - <https://w3c.github.io/clipboard-apis/#optional-data-types-x>
 
-**Browser support:**
+**Limited Availability — Browser support:**
 - Chrome: 124
 - Chrome Android: 124
 - Edge: 124
