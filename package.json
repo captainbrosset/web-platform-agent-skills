@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "bump": "npm update web-features",
+    "generate-catalog": "node scripts/generate-catalog.js"
+  },
+  "devDependencies": {
+    "web-features": "next"
+  }
+}
