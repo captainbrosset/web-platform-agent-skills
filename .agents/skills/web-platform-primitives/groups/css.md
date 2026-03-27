@@ -845,25 +845,6 @@ The `forced-colors` CSS @media rule detects when a user has chosen to use a forc
 - [forced-colors](https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/forced-colors)
 - [forced-color-adjust](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/forced-color-adjust)
 
-### glyph-orientation-vertical
-
-The `glyph-orientation-vertical` CSS property sets the orientation of glyphs in text rendered in a vertical writing mode.
-
-**Spec:**
-- <https://drafts.csswg.org/css-writing-modes-4/#glyph-orientation>
-
-**Browser support:**
-- Chrome: —
-- Chrome Android: —
-- Edge: —
-- Firefox: —
-- Firefox for Android: —
-- Safari: 4
-- Safari on iOS: 3.2
-
-**MDN:**
-- [glyph-orientation-vertical](https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/glyph-orientation-vertical)
-
 ### Hyphenation
 
 The `hyphens` CSS property controls when long words are broken by line wrapping. Although called `hyphens`, the property applies to word-splitting behavior across languages, such as customary spelling changes or the use of other characters. Support for non-English languages varies significantly.
@@ -920,22 +901,6 @@ The `image-set()` CSS function provides a set of images at different resolutions
 
 **MDN:**
 - [image-set()](https://developer.mozilla.org/docs/Web/CSS/Reference/Values/image/image-set)
-
-### ime-mode
-
-The `ime-mode` CSS property sets the state of the input method editor for text fields.
-
-**Spec:**
-- <https://drafts.csswg.org/css-ui-3/#input-method-editor>
-
-**Browser support:**
-- Chrome: —
-- Chrome Android: —
-- Edge: —
-- Firefox: 3
-- Firefox for Android: 4
-- Safari: —
-- Safari on iOS: —
 
 ### initial-letter
 
@@ -1222,25 +1187,6 @@ The `overflow: clip` CSS declaration clips an element's overflowing content to t
 - Firefox for Android: 81
 - Safari: 16
 - Safari on iOS: 16
-
-**MDN:**
-- [overflow](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow)
-
-### overflow: overlay
-
-The `overflow: overlay` CSS declaration is an alias to `overflow: auto`. Historically, it caused non-standard behavior, allowing scrollbars to overlay content without taking up layout space.
-
-**Spec:**
-- <https://drafts.csswg.org/css-overflow-3/#propdef-overflow>
-
-**Browser support:**
-- Chrome: 114
-- Chrome Android: 114
-- Edge: 114
-- Firefox: 112
-- Firefox for Android: 112
-- Safari: 12
-- Safari on iOS: 12
 
 **MDN:**
 - [overflow](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow)
@@ -1636,25 +1582,6 @@ The `-webkit-text-stroke-width` and `-webkit-text-stroke-color` CSS properties s
 - [-webkit-text-stroke](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-webkit-text-stroke)
 - [-webkit-text-fill-color](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-webkit-text-fill-color)
 
-### text-decoration-line: blink
-
-The `text-decoration: blink` CSS declaration flashes text between visible and invisible.
-
-**Spec:**
-- <https://drafts.csswg.org/css-text-decor-3/#valdef-text-decoration-line-blink>
-
-**Browser support:**
-- Chrome: 57
-- Chrome Android: 57
-- Edge: 79
-- Firefox: 36
-- Firefox for Android: 36
-- Safari: 12.1
-- Safari on iOS: 12.2
-
-**MDN:**
-- [text-decoration](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration)
-
 ### text-indent
 
 The `text-indent` CSS property sets the size of the empty space (indentation) at the beginning of lines in a text.
@@ -1808,25 +1735,6 @@ The `will-change` CSS property gives hints to the browser about expected changes
 **MDN:**
 - [will-change](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/will-change)
 
-### word-break: break-word
-
-The `word-break: break-word` CSS declaration sets word breaks to occur according to their customary rules.
-
-**Spec:**
-- <https://drafts.csswg.org/css-text-3/#word-break-property>
-
-**Browser support:**
-- Chrome: 1
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 67
-- Firefox for Android: 67
-- Safari: 3
-- Safari on iOS: 2
-
-**MDN:**
-- [word-break](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/word-break)
-
 ### writing-mode
 
 The `writing-mode` CSS property sets whether text is laid out horizontally or vertically, and left to right, or right to left.
@@ -1840,25 +1748,6 @@ The `writing-mode` CSS property sets whether text is laid out horizontally or ve
 - Edge: 12
 - Firefox: 41
 - Firefox for Android: 41
-- Safari: 10.1
-- Safari on iOS: 10.3
-
-**MDN:**
-- [writing-mode](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/writing-mode)
-
-### writing-mode SVG 1.1 values
-
-The `lr`, `lr-tb`, `rl`, `rl-tb`, `tb`, and `tb-rl` keyword values for the `writing-mode` CSS property set the text direction for elements in SVG 1.1 documents.
-
-**Spec:**
-- <https://drafts.csswg.org/css-writing-modes-4/#block-flow>
-
-**Browser support:**
-- Chrome: 48
-- Chrome Android: 48
-- Edge: 12
-- Firefox: 43
-- Firefox for Android: 43
 - Safari: 10.1
 - Safari on iOS: 10.3
 

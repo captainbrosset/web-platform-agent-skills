@@ -84,25 +84,6 @@ The `moveBefore()` DOM method relocates a node while preserving its state. For e
 - [Document: moveBefore() method](https://developer.mozilla.org/docs/Web/API/Document/moveBefore)
 - [DocumentFragment: moveBefore() method](https://developer.mozilla.org/docs/Web/API/DocumentFragment/moveBefore)
 
-### Mutation events
-
-Mutation events like `DOMSubtreeModified`, `DOMNodeInserted`, or `DOMNodeRemoved` fire when DOM changes occur.
-
-**Spec:**
-- <https://w3c.github.io/uievents/>
-
-**Browser support:**
-- Chrome: —
-- Chrome Android: —
-- Edge: —
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —
-
-**MDN:**
-- [MutationEvent](https://developer.mozilla.org/docs/Web/API/MutationEvent)
-
 ### MutationObserver
 
 The `MutationObserver` API watches for changes to the DOM tree and calls a callback function when DOM changes occur.

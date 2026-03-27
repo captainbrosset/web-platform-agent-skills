@@ -23,25 +23,6 @@ The `clip-path` property can be animated using CSS transitions and animations.
 **MDN:**
 - [clip-path](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/clip-path)
 
-### clip
-
-The `clip` CSS property sets the visible area of an absolutely positioned element.
-
-**Spec:**
-- <https://drafts.csswg.org/css-masking-1/#clip-property>
-
-**Browser support:**
-- Chrome: 1
-- Chrome Android: 18
-- Edge: 79
-- Firefox: 1
-- Firefox for Android: 4
-- Safari: 1.3
-- Safari on iOS: 1
-
-**MDN:**
-- [clip](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/clip)
-
 ### Clip path boxes
 
 The `fill-box`, `stroke-box`, and `view-box` values for `clip-path` set an edge of the element's box to use as the clipping shape.

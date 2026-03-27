@@ -61,27 +61,6 @@ The `@custom-media` CSS at-rule names a media query, which you can reuse in mult
 **MDN:**
 - [@custom-media](https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@custom-media)
 
-### Device media queries
-
-The `device-aspect-ratio`, `device-height`, and `device-width` media features describe physical properties of the displaying output device.
-
-**Spec:**
-- <https://drafts.csswg.org/mediaqueries-5/#mf-deprecated>
-
-**Browser support:**
-- Chrome: 1
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 2
-- Firefox for Android: 4
-- Safari: 3
-- Safari on iOS: 1
-
-**MDN:**
-- [device-aspect-ratio](https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/device-aspect-ratio)
-- [device-height](https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/device-height)
-- [device-width](https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/device-width)
-
 ### display-mode media query
 
 The `display-mode` CSS media query sets styles based on whether the web page is in an ordinary `browser` tab mode or another mode, such as `fullscreen`, `standalone`, or `minimal-ui`.

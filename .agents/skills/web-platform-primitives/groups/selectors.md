@@ -291,25 +291,6 @@ The `:has()` CSS functional pseudo-class matches an element if any of the select
 **MDN:**
 - [:has()](https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:has)
 
-### :host-context()
-
-The `:host-context()` CSS pseudo-class selects the containing element of the shadow tree in which it is used if that element or an ancestor matches the provided selector.
-
-**Spec:**
-- <https://drafts.csswg.org/css-shadow-1/#host-selector>
-
-**Browser support:**
-- Chrome: 54
-- Chrome Android: 54
-- Edge: 79
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —
-
-**MDN:**
-- [:host-context()](https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:host-context)
-
 ### :is()
 
 The `:is()` CSS functional pseudo-class takes a selector list as its argument, and matches any element that can be selected by one of the selectors in that list.
@@ -542,25 +523,6 @@ The `:target` CSS pseudo-class matches the element with an ID matching the URL f
 
 **MDN:**
 - [:target](https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:target)
-
-### :target-within
-
-The `:target-within` CSS pseudo-class matches the element with an ID matching the URL fragment and its ancestors.
-
-**Spec:**
-- <https://www.w3.org/TR/2022/WD-selectors-4-20220507/#the-target-within-pseudo>
-
-**Browser support:**
-- Chrome: —
-- Chrome Android: —
-- Edge: —
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —
-
-**MDN:**
-- [CSS: Cascading Style Sheets](https://developer.mozilla.org/docs/Web/CSS)
 
 ### :user-valid and :user-invalid
 

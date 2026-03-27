@@ -173,6 +173,7 @@ async function main() {
   const groupFeatures = new Map();
   for (const [id, feature] of Object.entries(features)) {
     if (feature.kind !== "feature") continue;
+    if (feature.discouraged) continue;
     if (!feature.group) continue;
     for (const groupId of feature.group) {
       if (!groupFeatures.has(groupId)) groupFeatures.set(groupId, []);

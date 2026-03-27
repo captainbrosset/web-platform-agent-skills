@@ -58,34 +58,6 @@ The `SpeechRecognition` API converts audio into text using the device's speech r
 **MDN:**
 - [Web Speech API](https://developer.mozilla.org/docs/Web/API/Web_Speech_API)
 
-### Speech recognition grammar
-
-The `SpeechRecognition.grammars` property of the Web Speech API represents a set of words or patterns of words that the recognition service should recognize, used for when the recognition service's accuracy is low.
-
-**Spec:**
-- <https://webaudio.github.io/web-speech-api/#speechreco-section>
-
-**Browser support:**
-- Chrome: —
-- Chrome Android: —
-- Edge: —
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —
-
-**MDN:**
-- [SpeechGrammar](https://developer.mozilla.org/docs/Web/API/SpeechGrammar)
-- [SpeechGrammar: src property](https://developer.mozilla.org/docs/Web/API/SpeechGrammar/src)
-- [SpeechGrammar: weight property](https://developer.mozilla.org/docs/Web/API/SpeechGrammar/weight)
-- [SpeechGrammarList](https://developer.mozilla.org/docs/Web/API/SpeechGrammarList)
-- [SpeechGrammarList: SpeechGrammarList() constructor](https://developer.mozilla.org/docs/Web/API/SpeechGrammarList/SpeechGrammarList)
-- [SpeechGrammarList: addFromString() method](https://developer.mozilla.org/docs/Web/API/SpeechGrammarList/addFromString)
-- [SpeechGrammarList: addFromURI() method](https://developer.mozilla.org/docs/Web/API/SpeechGrammarList/addFromURI)
-- [SpeechGrammarList: item() method](https://developer.mozilla.org/docs/Web/API/SpeechGrammarList/item)
-- [SpeechGrammarList: length property](https://developer.mozilla.org/docs/Web/API/SpeechGrammarList/length)
-- [SpeechRecognition: grammars property](https://developer.mozilla.org/docs/Web/API/SpeechRecognition/grammars)
-
 ### Speech synthesis
 
 The `SpeechSynthesis` API converts text to speech with artificial voices.

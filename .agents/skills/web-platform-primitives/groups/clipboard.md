@@ -105,25 +105,6 @@ The `web ` prefix for `ClipboardItem` data types (also known as MIME types) allo
 - [ClipboardItem](https://developer.mozilla.org/docs/Web/API/ClipboardItem)
 - [ClipboardItem: supports() static method](https://developer.mozilla.org/docs/Web/API/ClipboardItem/supports_static#type)
 
-### execCommand()
-
-The `execCommand()` method reads and writes from the clipboard and performs editing commands on editable text, such as changing the font name or style. Related methods check whether commands are supported, enabled, or applied.
-
-**Spec:**
-- <https://w3c.github.io/editing/docs/execCommand/>
-
-**Browser support:**
-- Chrome: 1
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 69
-- Firefox for Android: 79
-- Safari: 1.3
-- Safari on iOS: 1
-
-**MDN:**
-- [Document: execCommand() method](https://developer.mozilla.org/docs/Web/API/Document/execCommand)
-
 ### Read unsanitized clipboard data
 
 The optional `formats.unsanitized` parameter of the `navigator.clipboard.read()` method reads unsanitized `text/html` data from the system clipboard.

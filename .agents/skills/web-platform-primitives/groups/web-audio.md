@@ -20,26 +20,6 @@ An `AudioListener` object represents the virtual position and orientation of a p
 - Safari: 14.1
 - Safari on iOS: 14.5
 
-### AudioListener setPosition() and setOrientation()
-
-The `setPosition()` and `setOrientation()` methods of the `AudioListener` API set the virtual position and orientation of a person relative to sound sources, to spatialize audio in a Web Audio context.
-
-**Spec:**
-- <https://webaudio.github.io/web-audio-api/#AudioListener>
-
-**Browser support:**
-- Chrome: 14
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 25
-- Firefox for Android: 25
-- Safari: 6
-- Safari on iOS: 6
-
-**MDN:**
-- [AudioListener: setOrientation() method](https://developer.mozilla.org/docs/Web/API/AudioListener/setOrientation)
-- [AudioListener: setPosition() method](https://developer.mozilla.org/docs/Web/API/AudioListener/setPosition)
-
 ### AudioWorklet
 
 The `AudioWorklet` API runs module code in a separate thread, specifically for non-blocking, low latency audio processing.

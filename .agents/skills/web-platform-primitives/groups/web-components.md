@@ -23,25 +23,6 @@ The `:has-slotted` CSS pseudo-class matches `<slot>` elements where the fallback
 **MDN:**
 - [:has-slotted](https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:has-slotted)
 
-### :host-context()
-
-The `:host-context()` CSS pseudo-class selects the containing element of the shadow tree in which it is used if that element or an ancestor matches the provided selector.
-
-**Spec:**
-- <https://drafts.csswg.org/css-shadow-1/#host-selector>
-
-**Browser support:**
-- Chrome: 54
-- Chrome Android: 54
-- Edge: 79
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —
-
-**MDN:**
-- [:host-context()](https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:host-context)
-
 ### `<slot>`
 
 The `<slot>` HTML element is a placeholder inside a web component where consumers of the component can insert their own markup.

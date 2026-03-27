@@ -48,25 +48,6 @@ Non-cookie storage access extends the `requestStorageAccess()` API to let conten
 **MDN:**
 - [Document: requestStorageAccess() method](https://developer.mozilla.org/docs/Web/API/Document/requestStorageAccess)
 
-### Shared storage
-
-The `sharedStorage` API stores data to a shared space where the data can then be processed without the ability to track users across the different sites they visit. A common use case is measuring the reach of third-party ads without using user-tracking cookies.
-
-**Spec:**
-- <https://wicg.github.io/shared-storage/>
-
-**Browser support:**
-- Chrome: 126
-- Chrome Android: 126
-- Edge: 126
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —
-
-**MDN:**
-- [Shared Storage API](https://developer.mozilla.org/docs/Web/API/Shared_Storage_API)
-
 ### Storage access
 
 The `document.requestStorageAccess()` method allows content in iframes to request storing and reading cookies and other site data, while the `document.hasStorageAccess()` method checks if such access is granted.

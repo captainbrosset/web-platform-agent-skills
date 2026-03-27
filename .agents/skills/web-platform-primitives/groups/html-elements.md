@@ -1795,53 +1795,6 @@ Multiple `<details>` elements which use the same `name` attribute are mutually e
 **MDN:**
 - [HTMLDetailsElement: open property](https://developer.mozilla.org/docs/Web/API/HTMLDetailsElement/open)
 
-### Table styling
-
-Attributes and properties of table elements, such as `align`, `vAlign`, `noWrap`, `bgcolor`, or `char` set various visual presentation properties of the table and its sections and cells.
-
-**Spec:**
-- <https://html.spec.whatwg.org/multipage/obsolete.html>
-
-**Browser support:**
-- Chrome: —
-- Chrome Android: —
-- Edge: —
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —
-
-**MDN:**
-- [HTMLTableCaptionElement: align property](https://developer.mozilla.org/docs/Web/API/HTMLTableCaptionElement/align)
-- [HTMLTableCellElement: align property](https://developer.mozilla.org/docs/Web/API/HTMLTableCellElement/align)
-- [HTMLTableCellElement: bgColor property](https://developer.mozilla.org/docs/Web/API/HTMLTableCellElement/bgColor)
-- [HTMLTableCellElement: ch property](https://developer.mozilla.org/docs/Web/API/HTMLTableCellElement/ch)
-- [HTMLTableCellElement: chOff property](https://developer.mozilla.org/docs/Web/API/HTMLTableCellElement/chOff)
-- [HTMLTableCellElement: noWrap property](https://developer.mozilla.org/docs/Web/API/HTMLTableCellElement/noWrap)
-- [HTMLTableCellElement: vAlign property](https://developer.mozilla.org/docs/Web/API/HTMLTableCellElement/vAlign)
-- [HTMLTableColElement: align property](https://developer.mozilla.org/docs/Web/API/HTMLTableColElement/align)
-- [HTMLTableColElement: ch property](https://developer.mozilla.org/docs/Web/API/HTMLTableColElement/ch)
-- [HTMLTableColElement: chOff property](https://developer.mozilla.org/docs/Web/API/HTMLTableColElement/chOff)
-- [HTMLTableColElement: vAlign property](https://developer.mozilla.org/docs/Web/API/HTMLTableColElement/vAlign)
-- [HTMLTableElement: align property](https://developer.mozilla.org/docs/Web/API/HTMLTableElement/align)
-- [HTMLTableElement: bgColor property](https://developer.mozilla.org/docs/Web/API/HTMLTableElement/bgColor)
-- [HTMLTableElement: border property](https://developer.mozilla.org/docs/Web/API/HTMLTableElement/border)
-- [HTMLTableElement: cellPadding property](https://developer.mozilla.org/docs/Web/API/HTMLTableElement/cellPadding)
-- [HTMLTableElement: cellSpacing property](https://developer.mozilla.org/docs/Web/API/HTMLTableElement/cellSpacing)
-- [HTMLTableElement: frame property](https://developer.mozilla.org/docs/Web/API/HTMLTableElement/frame)
-- [HTMLTableElement: rules property](https://developer.mozilla.org/docs/Web/API/HTMLTableElement/rules)
-- [HTMLTableElement: summary property](https://developer.mozilla.org/docs/Web/API/HTMLTableElement/summary)
-- [HTMLTableElement: width property](https://developer.mozilla.org/docs/Web/API/HTMLTableElement/width)
-- [HTMLTableRowElement: align property](https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/align)
-- [HTMLTableRowElement: bgColor property](https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/bgColor)
-- [HTMLTableRowElement: ch property](https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/ch)
-- [HTMLTableRowElement: chOff property](https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/chOff)
-- [HTMLTableRowElement: vAlign property](https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/vAlign)
-- [HTMLTableSectionElement: align property](https://developer.mozilla.org/docs/Web/API/HTMLTableSectionElement/align)
-- [HTMLTableSectionElement: ch property](https://developer.mozilla.org/docs/Web/API/HTMLTableSectionElement/ch)
-- [HTMLTableSectionElement: chOff property](https://developer.mozilla.org/docs/Web/API/HTMLTableSectionElement/chOff)
-- [HTMLTableSectionElement: vAlign property](https://developer.mozilla.org/docs/Web/API/HTMLTableSectionElement/vAlign)
-
 ### Tables
 
 The `<table>` HTML element, with several related elements, represents tabular data in rows and columns of cells.

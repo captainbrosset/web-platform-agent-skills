@@ -4,22 +4,6 @@ https://drafts.csswg.org/css-color/#introduction
 
 ## Color types features
 
-### color-contrast()
-
-The `color-contrast()` CSS function picks a color from a list that has the most contrast with another color.
-
-**Spec:**
-- <https://drafts.csswg.org/css-color-5/#contrast-color>
-
-**Browser support:**
-- Chrome: —
-- Chrome Android: —
-- Edge: —
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —
-
 ### color()
 
 The `color()` function picks a color from a given color space. Wide gamut color spaces like `display-p3` allow showing more vibrant and saturated colors than the standard `srgb` color space.

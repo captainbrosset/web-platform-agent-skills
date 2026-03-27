@@ -204,27 +204,6 @@ The `padding` CSS property sets space between an element's edge and its contents
 **MDN:**
 - [padding](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding)
 
-### Page break aliases
-
-The `page-break-before`, `page-break-inside`, and `page-break-after` CSS properties are aliases to the `break-before`, `break-inside`, and `break-after` properties.
-
-**Spec:**
-- <https://drafts.csswg.org/css-break-4/#page-break-properties>
-
-**Browser support:**
-- Chrome: 1
-- Chrome Android: 18
-- Edge: 12
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —
-
-**MDN:**
-- [page-break-before](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/page-break-before)
-- [page-break-inside](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/page-break-inside)
-- [page-break-after](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/page-break-after)
-
 ### Page breaks
 
 In printed page layouts, the `break-after`, `break-before`, `break-inside` CSS properties control where printed pages start and end. Also known as pagination or page breaking.

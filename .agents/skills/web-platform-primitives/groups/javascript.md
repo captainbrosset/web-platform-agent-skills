@@ -17,66 +17,6 @@ This group of web platform features also includes the following sub-categories, 
 
 ## JavaScript features
 
-### __proto__
-
-The `__proto__` property of objects partially exposes the prototype of an object.
-
-**Spec:**
-- <https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.prototype.__proto__>
-
-**Browser support:**
-- Chrome: 1
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 1
-- Firefox for Android: 4
-- Safari: 3
-- Safari on iOS: 1
-
-**MDN:**
-- [Object.prototype.__proto__](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/proto)
-
-### Accessor methods
-
-The `__defineGetter__()` and `__defineSetter__()` methods of objects bind a function to a property, which is called on setting or reading the property.
-
-**Spec:**
-- <https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.prototype-legacy-accessor-methods>
-
-**Browser support:**
-- Chrome: 1
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 1
-- Firefox for Android: 4
-- Safari: 3
-- Safari on iOS: 1
-
-**MDN:**
-- [Object.prototype.__defineGetter__()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/__defineGetter__)
-- [Object.prototype.__defineSetter__()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/__defineSetter__)
-- [Object.prototype.__lookupGetter__()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/__lookupGetter__)
-- [Object.prototype.__lookupSetter__()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/__lookupSetter__)
-
-### arguments.callee
-
-The `callee` property of the `arguments` variable in a non-strict function body's local scope is the function that `arguments` belongs to.
-
-**Spec:**
-- <https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-arguments-exotic-objects>
-
-**Browser support:**
-- Chrome: 1
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 1
-- Firefox for Android: 4
-- Safari: 1
-- Safari on iOS: 1
-
-**MDN:**
-- [arguments.callee](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/arguments/callee)
-
 ### Async functions
 
 The `async` and `await` keywords allow you to use the asynchronous, promise-based behavior of a function without using promise chains.
@@ -269,26 +209,6 @@ The `Error.isError()` static method checks whether a value is an `Error` object.
 **MDN:**
 - [Error.isError()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/isError)
 
-### escape() and unescape()
-
-The `escape()` and `unescape()` built-in Javascript methods encode and unencode strings using percent encoding, where certain characters are replaced by hexadecimal escape sequences.
-
-**Spec:**
-- <https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-escape-string>
-
-**Browser support:**
-- Chrome: 1
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 1
-- Firefox for Android: 4
-- Safari: 1
-- Safari on iOS: 1
-
-**MDN:**
-- [escape()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/escape)
-- [unescape()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/unescape)
-
 ### Exponentiation operator
 
 The exponentiation (`**`) operator returns the result of raising the first operand to the power of the second operand.
@@ -308,26 +228,6 @@ The exponentiation (`**`) operator returns the result of raising the first opera
 **MDN:**
 - [Exponentiation (**)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Exponentiation)
 - [Exponentiation assignment (**=)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Exponentiation_assignment)
-
-### Function caller and arguments
-
-The `caller` and `arguments` properties of a non-strict mode `Function` object are the function that called it and the arguments it was called with. Not to be confused with the `arguments` variable in a function body's local scope.
-
-**Spec:**
-- <https://tc39.es/ecma262/multipage/error-handling-and-language-extensions.html#sec-forbidden-extensions>
-
-**Browser support:**
-- Chrome: 1
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 1
-- Firefox for Android: 4
-- Safari: 3
-- Safari on iOS: 1
-
-**MDN:**
-- [Function.prototype.caller](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/caller)
-- [Function.prototype.arguments](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/arguments)
 
 ### Functions
 
@@ -369,26 +269,6 @@ Generator functions (`function*`) create iterators that return multiple values, 
 **MDN:**
 - [function*](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function*)
 
-### getYear() and setYear()
-
-The `getYear()` and `setYear()` methods of `Date` objects get and set the year as an offset to 1900.
-
-**Spec:**
-- <https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-date.prototype.getyear>
-
-**Browser support:**
-- Chrome: 1
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 1
-- Firefox for Android: 4
-- Safari: 1
-- Safari on iOS: 1
-
-**MDN:**
-- [Date.prototype.getYear()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getYear)
-- [Date.prototype.setYear()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setYear)
-
 ### globalThis
 
 The `globalThis` property accesses the global `this` value (and hence the global object itself) across environments.
@@ -426,38 +306,6 @@ The `#!` comment at the absolute start of a script or module is treated as a nor
 
 **MDN:**
 - [Lexical grammar](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar#Hashbang_comments)
-
-### HTML wrapper methods
-
-JavaScript built-in methods such as, `String.bold()` and `String.italics()`, wrap strings in (often historic) HTML.
-
-**Spec:**
-- <https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-additional-properties-of-the-string.prototype-object>
-
-**Browser support:**
-- Chrome: 1
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 1
-- Firefox for Android: 4
-- Safari: 1
-- Safari on iOS: 1
-
-**MDN:**
-- [String.prototype.anchor()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/anchor)
-- [String.prototype.big()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/big)
-- [String.prototype.blink()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/blink)
-- [String.prototype.bold()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/bold)
-- [String.prototype.fixed()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fixed)
-- [String.prototype.fontcolor()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fontcolor)
-- [String.prototype.fontsize()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fontsize)
-- [String.prototype.italics()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/italics)
-- [String.prototype.link()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/link)
-- [String.prototype.small()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/small)
-- [String.prototype.strike()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/strike)
-- [String.prototype.sub()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/sub)
-- [String.prototype.substr()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/substr)
-- [String.prototype.sup()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/sup)
 
 ### JavaScript (initial core language support)
 
@@ -752,25 +600,6 @@ The `Temporal` API allows you to work with dates, times, time zones, and duratio
 **MDN:**
 - [Temporal](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal)
 
-### toGMTString()
-
-The `toGMTString()` method of `Date` objects is an alias to the `toUTCString()` method.
-
-**Spec:**
-- <https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-date.prototype.togmtstring>
-
-**Browser support:**
-- Chrome: 1
-- Chrome Android: 18
-- Edge: 12
-- Firefox: 1
-- Firefox for Android: 4
-- Safari: 1
-- Safari on iOS: 1
-
-**MDN:**
-- [Date.prototype.toUTCString()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toUTCString)
-
 ### Top-level await
 
 The `await` keyword, when used at the top level of a module (outside of an async function), delays parent module execution until after a promise fulfills.
@@ -848,22 +677,3 @@ The `WeakRef` and `FinalizationRegistry` objects hold references to garbage-coll
 **MDN:**
 - [WeakRef](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakRef)
 - [FinalizationRegistry](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/FinalizationRegistry)
-
-### with
-
-The `with` JavaScript statement adds a given object to the chain of scopes used to evaluate names.
-
-**Spec:**
-- <https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-with-statement>
-
-**Browser support:**
-- Chrome: 38
-- Chrome Android: 38
-- Edge: 12
-- Firefox: 48
-- Firefox for Android: 48
-- Safari: 10
-- Safari on iOS: 10
-
-**MDN:**
-- [with](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/with)

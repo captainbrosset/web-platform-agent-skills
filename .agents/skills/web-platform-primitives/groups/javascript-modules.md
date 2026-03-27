@@ -4,25 +4,6 @@ Web platform features about JavaScript modules
 
 ## JavaScript modules features
 
-### Import assertions
-
-Module `import … assert { type: "json" }` and `import … assert { type: "css" }` JavaScript statements load JSON and CSS data.
-
-**Spec:**
-- <https://github.com/tc39/proposal-import-attributes/tree/abca60286360b47f9a6be25a28f489c2cb157beb>
-
-**Browser support:**
-- Chrome: —
-- Chrome Android: —
-- Edge: —
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —
-
-**MDN:**
-- [import](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import)
-
 ### JavaScript modules
 
 JavaScript modules allow code to be organized into reusable units. Modules use `import` to load other modules and `export` to declare what is available to import from other modules. In HTML, modules are loaded with `<script type="module">`.

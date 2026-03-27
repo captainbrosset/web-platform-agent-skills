@@ -137,25 +137,6 @@ The `steps()` CSS easing function divides an animation or transition into equidi
 **MDN:**
 - [`<easing-function>`](https://developer.mozilla.org/docs/Web/CSS/Reference/Values/easing-function)
 
-### text-decoration-line: blink
-
-The `text-decoration: blink` CSS declaration flashes text between visible and invisible.
-
-**Spec:**
-- <https://drafts.csswg.org/css-text-decor-3/#valdef-text-decoration-line-blink>
-
-**Browser support:**
-- Chrome: 57
-- Chrome Android: 57
-- Edge: 79
-- Firefox: 36
-- Firefox for Android: 36
-- Safari: 12.1
-- Safari on iOS: 12.2
-
-**MDN:**
-- [text-decoration](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration)
-
 ### Web animations
 
 The web animation API programmatically creates, inspects, and controls element animations, to change and synchronize appearance over time.

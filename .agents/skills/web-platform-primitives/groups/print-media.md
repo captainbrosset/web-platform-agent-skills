@@ -4,25 +4,6 @@ Web platform features about Print media
 
 ## Print media features
 
-### color-adjust
-
-The `color-adjust` shorthand CSS property allows multiple performance related color adjustments to be set at once. Setting the `print-color-adjust` CSS property directly is preferred, as it is the only such adjustment so far defined.
-
-**Spec:**
-- <https://drafts.csswg.org/css-color-adjust-1/#color-adjust>
-
-**Browser support:**
-- Chrome: —
-- Chrome Android: —
-- Edge: —
-- Firefox: 48
-- Firefox for Android: 48
-- Safari: 15.4
-- Safari on iOS: 15.4
-
-**MDN:**
-- [print-color-adjust](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/print-color-adjust)
-
 ### Page selectors
 
 The `:first`, `:left`, and `:right` pseudo-classes select pages based on their position in sequence after pagination.

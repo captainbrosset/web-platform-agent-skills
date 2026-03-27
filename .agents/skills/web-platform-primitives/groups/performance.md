@@ -235,26 +235,6 @@ The `performance` global object and the `PerformanceObserver` API provide access
 **MDN:**
 - [Performance APIs](https://developer.mozilla.org/docs/Web/API/Performance_API)
 
-### PerformanceTiming and PerformanceNavigation
-
-The `window.performance.timing` and `window.performance.navigation` APIs report performance timing information for events that occur during the loading and use of the current page.
-
-**Spec:**
-- <https://w3c.github.io/navigation-timing/#obsolete>
-
-**Browser support:**
-- Chrome: 56
-- Chrome Android: 56
-- Edge: 18
-- Firefox: 56
-- Firefox for Android: 56
-- Safari: 14.1
-- Safari on iOS: 14.5
-
-**MDN:**
-- [Performance: timing property](https://developer.mozilla.org/docs/Web/API/Performance/timing)
-- [Performance: navigation property](https://developer.mozilla.org/docs/Web/API/Performance/navigation)
-
 ### Resource size
 
 The `decodedBodySize`, `encodedBodySize`, and `transferSize` properties of the `PerformanceResourceTiming` API reports the size of resources loaded.

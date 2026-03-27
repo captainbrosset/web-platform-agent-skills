@@ -55,7 +55,7 @@ To suggest the right web platform primitive to the user, search your knowledge o
   Contains features such as: Async clipboard, Clipboard events, clipboardchange, ClipboardItem.supports(), Custom formats for clipboard items, ...
 * [Clipping, shapes, and masking](groups/clipping-shapes-and-masking.md)
   Methods of clipping, masking and creating shapes with CSS and SVG. Based on CSS-Next CSS 4 group
-  Contains features such as: Animatable clipping paths, clip, Clip path boxes, clip-path, mask-border, ...
+  Contains features such as: Animatable clipping paths, Clip path boxes, clip-path, mask-border, mask-type, ...
 * [Compute pressure](groups/compute-pressure.md)
   Contains features such as: CPU compute pressure, Virtual pressure sources
 * [Cookies](groups/cookies.md)
@@ -80,7 +80,7 @@ To suggest the right web platform primitive to the user, search your knowledge o
     Contains features such as: Border images, border-radius, Borders
   * [Color types](groups/color-types.md)
     https://drafts.csswg.org/css-color/#introduction
-    Contains features such as: color-contrast(), color(), contrast-color(), currentColor, HSL, ...
+    Contains features such as: color(), contrast-color(), currentColor, HSL, HWB, ...
   * [Container queries](groups/container-queries.md)
     https://drafts.csswg.org/css-conditional-5/#container-queries
     Contains features such as: Container queries, Container scroll-state queries, Container style queries, Range syntax for style queries
@@ -95,7 +95,7 @@ To suggest the right web platform primitive to the user, search your knowledge o
     Contains features such as: Safe area inset environment variables
   * [CSS object models](groups/css-object-models.md)
     The CSS Object Model (CSSOM) and CSS Typed Object Model allow authors to programmatically interact with CSS with JavaScript.
-    Contains features such as: CSS object model, CSS object model (DOM level 2), CSS typed object model, CSS.escape(), getComputedStyle(), ...
+    Contains features such as: CSS object model, CSS typed object model, CSS.escape(), getComputedStyle(), Numeric factory functions
   * [Explicit defaults](groups/explicit-defaults.md)
     https://drafts.csswg.org/css-cascade/
     Contains features such as: all, inherit, initial, revert, unset
@@ -131,7 +131,7 @@ To suggest the right web platform primitive to the user, search your knowledge o
     Contains features such as: ::marker, `<ol>`, `<ul>`, and `<li>`, display: list-item, List style
   * [Media queries](groups/media-queries.md)
     CSS Media queries allow you to provide different styles based on the user's device and settings.
-    Contains features such as: @supports (compatibility prefix), color-gamut media query, Custom media queries, Device media queries, display-mode media query, ...
+    Contains features such as: @supports (compatibility prefix), color-gamut media query, Custom media queries, display-mode media query, dynamic-range media query, ...
   * [Selectors](groups/selectors.md)
     CSS features that allow selecting elements in the DOM.
     Contains features such as: ::backdrop, ::details-content, ::file-selector-button, ::first-letter, ::first-line, ...
@@ -155,7 +155,7 @@ To suggest the right web platform primitive to the user, search your knowledge o
     Contains features such as: tab-size, white-space, white-space-collapse
 * [DOM](groups/dom.md)
   Features that manipulate the tree of nodes that make up a document.
-  Contains features such as: Declarative shadow DOM, DOM, getHTML(), moveBefore(), Mutation events, ...
+  Contains features such as: Declarative shadow DOM, DOM, getHTML(), moveBefore(), MutationObserver, ...
 * [File system access](groups/file-system-access.md)
   Contains features such as: `<input type="file" multiple>`, `<input type="file" webkitdirectory>`, File system access, Origin private file system
 * [Gamepad](groups/gamepad.md)
@@ -187,7 +187,7 @@ To suggest the right web platform primitive to the user, search your knowledge o
     Contains features such as: crisp-edges, image-rendering, image-rendering: smooth
 * [JavaScript](groups/javascript.md)
   https://tc39.es/ecma262/ (any edition)
-  Contains features such as: __proto__, Accessor methods, arguments.callee, Async functions, Async generators, ...
+  Contains features such as: Async functions, Async generators, Atomics.pause(), Atomics.waitAsync(), BigInt, ...
   * [Collections](groups/collections.md)
     Contains features such as: WeakMap, WeakSet
     * [Arrays](groups/arrays.md)
@@ -204,7 +204,7 @@ To suggest the right web platform primitive to the user, search your knowledge o
   * [Iterators](groups/iterators.md)
     Contains features such as: Array iterators, Async iterators and the for await..of loop, Iterator methods, Iterator.concat(), Iterators and the for...of loop, ...
   * [JavaScript modules](groups/javascript-modules.md)
-    Contains features such as: Import assertions, JavaScript modules, JavaScript modules in service workers, JavaScript modules in shared workers, JavaScript modules in workers
+    Contains features such as: JavaScript modules, JavaScript modules in service workers, JavaScript modules in shared workers, JavaScript modules in workers
   * [JSON](groups/json.md)
     Features for the JSON format itself and related features, such as the JSON JavaScript namespace and JSON import attributes.
     Contains features such as: JSON, JSON import attributes, JSON source text access
@@ -216,7 +216,7 @@ To suggest the right web platform primitive to the user, search your knowledge o
   * [Promises](groups/promises.md)
     Contains features such as: Promise (initial support), Promise finally(), Promise.allSettled(), Promise.any(), Promise.try(), ...
   * [Regular expressions](groups/regular-expressions.md)
-    Contains features such as: RegExp compile(), RegExp static properties, RegExp.escape(), Regular expressions
+    Contains features such as: RegExp.escape(), Regular expressions
 * [Messaging](groups/messaging.md)
   Covers messaging APIs like BroadcastChannel, EventSource and more. The spec calls this group "Communications", but that seems overly general for the web features group.
   Contains features such as: BroadcastChannel, Channel messaging, messageerror, postMessage, Server-sent events
@@ -229,7 +229,7 @@ To suggest the right web platform primitive to the user, search your knowledge o
   Features for measuring the Performance of Web applications.
   Contains features such as: Back/forward cache blocking reasons, Element timing, Event timing, Largest contentful paint (LCP), Layout instability, ...
 * [Print media](groups/print-media.md)
-  Contains features such as: color-adjust, Page selectors, Page setup, page-orientation, Print events, ...
+  Contains features such as: Page selectors, Page setup, page-orientation, Print events, print-color-adjust, ...
 * [Progressive web app](groups/progressive-web-app.md)
   Progressive web apps is built with web technologies, but has capabilities similar to a platform-specific app. Also known as PWA.
   Contains features such as: `<install>`, `<meta name="application-title">`, Application shortcuts, beforeinstallprompt, File handlers, ...
@@ -256,10 +256,10 @@ To suggest the right web platform primitive to the user, search your knowledge o
   Contains features such as: Accelerometer, Ambient light sensor, Device orientation events, Gyroscope, Magnetometer, ...
 * [Speech](groups/speech.md)
   https://webaudio.github.io/web-speech-api/ https://drafts.csswg.org/css-speech-1/
-  Contains features such as: speak, speak-as, Speech recognition, Speech recognition grammar, Speech synthesis
+  Contains features such as: speak, speak-as, Speech recognition, Speech synthesis
 * [Storage](groups/storage.md)
   Group for the set of features related to storage of data. Currently this group contains all storage related features that have been developed. However, there are still many to add, so it's possible this eventually gets sub-groups or another approach for more specific categorization.
-  Contains features such as: localStorage and sessionStorage, Non-cookie storage access, Shared storage, Storage access, Storage buckets, ...
+  Contains features such as: localStorage and sessionStorage, Non-cookie storage access, Storage access, Storage buckets, Storage manager
   * [IndexedDB](groups/indexeddb.md)
     Group for the set of features related to storing data in IndexedDB.
     Contains features such as: IndexedDB, IndexedDB getAllRecords()
@@ -277,9 +277,9 @@ To suggest the right web platform primitive to the user, search your knowledge o
   Contains features such as: Active view transition, Cross-document view transitions, Element-scoped view transitions, View transitions, view-transition-class
 * [Web audio](groups/web-audio.md)
   https://webaudio.github.io/web-audio-api/
-  Contains features such as: AudioListener, AudioListener setPosition() and setOrientation(), AudioWorklet, OfflineAudioContext, Web Audio
+  Contains features such as: AudioListener, AudioWorklet, OfflineAudioContext, Web Audio
 * [Web components](groups/web-components.md)
-  Contains features such as: :has-slotted, :host-context(), `<slot>`, `<template>`, Declarative shadow DOM, ...
+  Contains features such as: :has-slotted, `<slot>`, `<template>`, Declarative shadow DOM, Host, ...
 * [WebAssembly](groups/webassembly.md)
   WebAssembly (Wasm) features and extensions
   Contains features such as: BigInt to i64 conversion (WebAssembly), Branch hinting (WebAssembly), Bulk memory operations (WebAssembly), Exception handling (WebAssembly), Exception references with exnref (WebAssembly), ...
@@ -305,7 +305,7 @@ To suggest the right web platform primitive to the user, search your knowledge o
   Contains features such as: Dedicated workers, JavaScript modules in service workers, JavaScript modules in shared workers, JavaScript modules in workers, requestAnimationFrame() in workers, ...
 * [Worklets](groups/worklets.md)
   https://html.spec.whatwg.org/multipage/worklets.html and specific worklet types like audio worklets, paint worklets, etc.
-  Contains features such as: AudioWorklet, paint(), Shared storage
+  Contains features such as: AudioWorklet, paint()
 * [XML](groups/xml.md)
   Group comprises XML features such as parsing/serializing, querying and more. It does not include XMLHTTPRequest, since it's not specific to XML.
   Contains features such as: XMLSerializer, XPath, XSLT

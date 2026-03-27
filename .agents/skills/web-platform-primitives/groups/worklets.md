@@ -41,22 +41,3 @@ The `paint()` CSS function creates a custom image, drawn using a paint worklet, 
 
 **MDN:**
 - [CSS Painting API](https://developer.mozilla.org/docs/Web/API/CSS_Painting_API)
-
-### Shared storage
-
-The `sharedStorage` API stores data to a shared space where the data can then be processed without the ability to track users across the different sites they visit. A common use case is measuring the reach of third-party ads without using user-tracking cookies.
-
-**Spec:**
-- <https://wicg.github.io/shared-storage/>
-
-**Browser support:**
-- Chrome: 126
-- Chrome Android: 126
-- Edge: 126
-- Firefox: —
-- Firefox for Android: —
-- Safari: —
-- Safari on iOS: —
-
-**MDN:**
-- [Shared Storage API](https://developer.mozilla.org/docs/Web/API/Shared_Storage_API)

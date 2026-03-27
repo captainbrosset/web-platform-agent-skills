@@ -23,27 +23,6 @@ The CSS object model API reads, creates, and modifies CSS stylesheets and inline
 **MDN:**
 - [CSS Object Model (CSSOM)](https://developer.mozilla.org/docs/Web/API/CSS_Object_Model)
 
-### CSS object model (DOM level 2)
-
-The DOM level 2 style specification defined interfaces to access and modify CSS styles, such as `CSSValue` and `CSSPrimitiveValue`, that were later excluded from the CSS object model.
-
-**Spec:**
-- <https://www.w3.org/TR/DOM-Level-2-Style/>
-
-**Browser support:**
-- Chrome: —
-- Chrome Android: —
-- Edge: —
-- Firefox: —
-- Firefox for Android: —
-- Safari: 10
-- Safari on iOS: 10
-
-**MDN:**
-- [CSSPrimitiveValue](https://developer.mozilla.org/docs/Web/API/CSSPrimitiveValue)
-- [CSSValue](https://developer.mozilla.org/docs/Web/API/CSSValue)
-- [CSSValueList](https://developer.mozilla.org/docs/Web/API/CSSValueList)
-
 ### CSS typed object model
 
 The `CSSStyleValue` and its subclasses represent CSS values as distinct types instead of only strings. Also known as typed OM.
