@@ -6,6 +6,7 @@ Features relating to how images are displayed.
 
 This group of web platform features also includes the following sub-categories, which might be relevant to your query:
 
+- [Image formats](image-formats.md)
 - [Image scaling](image-scaling.md)
 
 ## Images features

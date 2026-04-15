@@ -30,14 +30,7 @@ A `ReadableStream` constructed with `{ type: "bytes" }` reads bytes from a strea
 **Spec:**
 - <https://streams.spec.whatwg.org/>
 
-**Limited Availability — Browser support:**
-- Chrome: 89
-- Chrome Android: 89
-- Edge: 89
-- Firefox: 102
-- Firefox for Android: 102
-- Safari: —
-- Safari on iOS: —
+**Baseline Newly Available since 2026-03-24**
 
 **MDN:**
 - [Using readable byte streams](https://developer.mozilla.org/docs/Web/API/Streams_API/Using_readable_byte_streams)

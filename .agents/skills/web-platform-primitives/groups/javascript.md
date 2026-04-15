@@ -68,8 +68,8 @@ The `Math.sumPrecise()` static method returns the sum of an iterable of numbers.
 - <https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sumprecise>
 
 **Limited Availability — Browser support:**
-- Chrome: —
-- Chrome Android: —
+- Chrome: 147
+- Chrome Android: 147
 - Edge: —
 - Firefox: 137
 - Firefox for Android: 137

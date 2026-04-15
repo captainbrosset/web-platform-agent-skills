@@ -35,8 +35,8 @@ The `captureStream()` method for `<audio>` and `<video>` elements returns a `Med
 - Chrome: 62
 - Chrome Android: 62
 - Edge: 79
-- Firefox: —
-- Firefox for Android: —
+- Firefox: 149
+- Firefox for Android: 149
 - Safari: —
 - Safari on iOS: —
 

@@ -58,7 +58,7 @@ Use the table of content below to find the relevant group, or groups, for the pr
   Contains features such as: animation-composition, interpolate-size, Scroll-driven animations
 * [Canvas](groups/canvas.md)
   `<canvas>` including 2D and WebGL rendering contexts, and offscreen canvas.
-  Contains features such as: 2D canvas opacity, Canvas createConicGradient(), Canvas reset(), Canvas roundRect(), Color management for 2D canvas, ...
+  Contains features such as: 2D canvas opacity, Canvas reset(), Color management for 2D canvas, contextlost and contextrestored, Desynchronized 2D canvas, ...
 * [Clipboard](groups/clipboard.md)
   Contains features such as: Async clipboard, clipboardchange, ClipboardItem.supports(), Custom formats for clipboard items, Read unsanitized clipboard data, ...
 * [Clipping, shapes, and masking](groups/clipping-shapes-and-masking.md)
@@ -143,13 +143,16 @@ Use the table of content below to find the relevant group, or groups, for the pr
 * [DOM](groups/dom.md)
   Features that manipulate the tree of nodes that make up a document.
   Contains features such as: Declarative shadow DOM, getHTML(), moveBefore()
+* [Fetch](groups/fetch.md)
+  The Fetch API and its various features, and related APIs.
+  Contains features such as: Fetch form data, Fetch metadata request headers, Fetch priority, Fetch upload streams, fetchLater
 * [File system access](groups/file-system-access.md)
   Contains features such as: `<input type="file" webkitdirectory>`, File system access
 * [Gamepad](groups/gamepad.md)
   Contains features such as: Gamepad haptic feedback, Gamepad touch buttons, Gamepad VR hands and poses
 * [HTML](groups/html.md)
   This group isn't intended for everything defined in HTML: spec: https://html.spec.whatwg.org/multipage/ It is for the markup language, and not for all APIs and infrastructure defined in HTML. For example, structuredClone() should not be in this group. APIs on HTML*Element and CSS features specific to an HTML element generally do make sense to group under HTML, however.
-  Contains features such as: `<meta name="theme-color">`, blocking="render", Declarative shadow DOM, hidden="until-found", inert, ...
+  Contains features such as: `<meta name="theme-color">`, blocking="render", Declarative shadow DOM, hidden="until-found", Interest invokers, ...
   * [Custom elements](groups/custom-elements.md)
     https://html.spec.whatwg.org/multipage/custom-elements.html
     Contains features such as: :state(), Customized built-in elements, Scoped custom element registries
@@ -161,9 +164,15 @@ Use the table of content below to find the relevant group, or groups, for the pr
   * [Media elements](groups/media-elements.md)
     Media elements are `<audio>` and `<video>`, but the `<track>` element is also included in this group.
     Contains features such as: Audio and video tracks, captureStream() for `<audio>` and `<video>`, controlslist, fastSeek(), Media element pseudo-classes, ...
+* [HTTP](groups/http.md)
+  The HTTP network protocol
+  Contains features such as: HTTP/3
 * [Images](groups/images.md)
   Features relating to how images are displayed.
   Contains features such as: `<img sizes="auto" loading="lazy">`, cross-fade()
+  * [Image formats](groups/image-formats.md)
+    The various image formats supported by browsers.
+    Contains features such as: AVIF, JPEG XL
   * [Image scaling](groups/image-scaling.md)
     The `image-rendering` CSS property sets how images are scaled.
     Contains features such as: crisp-edges, image-rendering: smooth
@@ -197,6 +206,9 @@ Use the table of content below to find the relevant group, or groups, for the pr
     Contains features such as: Promise.try(), Promise.withResolvers()
   * [Regular expressions](groups/regular-expressions.md)
     Contains features such as: RegExp.escape()
+* [MathML](groups/mathml.md)
+  Features related to MathML specifications.
+  Contains features such as: Math font family
 * [Payments](groups/payments.md)
   Contains features such as: Payment handler, Payment request, Secure payment confirmation
 * [Performance](groups/performance.md)
@@ -241,7 +253,7 @@ Use the table of content below to find the relevant group, or groups, for the pr
   https://streams.spec.whatwg.org/
   Contains features such as: Asynchronously iterable streams, Readable byte streams, ReadableStream.from(), Transferable streams
 * [SVG](groups/svg.md)
-  SVG (Scalable Vector Graphics) is a language for describing two-dimensional graphics. spec: https://svgwg.org/svg2-draft/
+  SVG (Scalable Vector Graphics) is a language for describing two-dimensional graphics. spec: https://w3c.github.io/svgwg/svg2-draft/
   Contains features such as: context-fill and context-stroke, Opacity (SVG)
 * [Text fragments](groups/text-fragments.md)
   This group was originally a feature, which has 3 parts:  1. Scrolling to a text fragment such as #:~:text=snippet.  2. Feature detection for this, document.fragmentDirective. This cannot be     relied upon due to https://webkit.org/b/273466. See also     https://github.com/WICG/scroll-to-text-fragment/issues/257.  3. The ::target-text pseudo-element for styling the highlight. TODO: Create a composite feature for text fragments as a whole. The original feature in https://github.com/web-platform-dx/web-features/pull/732 has a solid description to copy for that.
@@ -278,4 +290,7 @@ Use the table of content below to find the relevant group, or groups, for the pr
 * [Worklets](groups/worklets.md)
   https://html.spec.whatwg.org/multipage/worklets.html and specific worklet types like audio worklets, paint worklets, etc.
   Contains features such as: paint()
+* [XML](groups/xml.md)
+  Group comprises XML features such as parsing/serializing, querying and more. It does not include XMLHTTPRequest, since it's not specific to XML.
+  Contains features such as: XSLT
 <!-- TOC:END -->

@@ -271,6 +271,26 @@ The `display: table` CSS declaration renders an element with the box layout of a
 **MDN:**
 - [display](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/display)
 
+### dynamic-range-limit
+
+The `dynamic-range-limit` CSS property controls the peak luminance of high dynamic range content. You can use this to coordinate the apparent brightness of HDR and SDR content.
+
+**Spec:**
+- <https://drafts.csswg.org/css-color-hdr-1/#controlling-dynamic-range>
+
+**Limited Availability — Browser support:**
+- Chrome: 136
+- Chrome Android: 136
+- Edge: 136
+- Firefox: —
+- Firefox for Android: —
+- Safari: —
+- Safari on iOS: —
+
+**MDN:**
+- [dynamic-range-limit](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/dynamic-range-limit)
+- [dynamic-range-limit-mix()](https://developer.mozilla.org/docs/Web/CSS/Reference/Values/dynamic-range-limit-mix)
+
 ### field-sizing
 
 The `field-sizing` CSS property allows form controls such as `<textarea>` to be sized based on their content.
@@ -411,6 +431,18 @@ The `margin-trim` CSS property removes the margins of child elements when they m
 **MDN:**
 - [margin-trim](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-trim)
 
+### Math font family
+
+The `font-family: math` CSS declaration uses the browser default font face for displaying mathematical expressions.
+
+**Spec:**
+- <https://drafts.csswg.org/css-fonts-4/#math-def>
+
+**Baseline Newly Available since 2026-03-24**
+
+**MDN:**
+- [font-family](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-family)
+
 ### Nesting
 
 CSS nesting allows for shorter selectors, easier reading, and more modularity by nesting rules inside others.
@@ -442,6 +474,25 @@ The `object-view-box` CSS property crops and zooms to an inset area of an image.
 **MDN:**
 - [object-view-box](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/object-view-box)
 
+### overflow-clip-margin
+
+The `overflow-clip-margin` CSS property sets how far overflow content may appear outside the bounds of an element before it's clipped by effects such as `overflow: clip`.
+
+**Spec:**
+- <https://drafts.csswg.org/css-overflow-4/#overflow-clip-margin>
+
+**Limited Availability — Browser support:**
+- Chrome: —
+- Chrome Android: —
+- Edge: —
+- Firefox: 148
+- Firefox for Android: 148
+- Safari: —
+- Safari on iOS: —
+
+**MDN:**
+- [overflow-clip-margin](https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-clip-margin)
+
 ### overlay
 
 The `overlay` CSS property, used as an `allow-discrete` CSS transition, prevents a top layer element, such as a popover or a `<dialog>`, from being removed from the top layer before it has finished animating. You can't set the value of the `overlay` property; only use it as transition property.
@@ -466,7 +517,7 @@ The `overlay` CSS property, used as an `allow-discrete` CSS transition, prevents
 The `paint-order` CSS property sets the z-order of strokes, fills, and (in SVG content) markers. For example, `paint-order: markers stroke fill;` draws the markers, then stroke on top of markers, then fill on top of both markers and stroke.
 
 **Spec:**
-- <https://svgwg.org/svg2-draft/painting.html#PaintOrder>
+- <https://w3c.github.io/svgwg/svg2-draft/painting.html#PaintOrder>
 
 **Baseline Newly Available since 2024-03-22**
 
@@ -542,6 +593,9 @@ The `random()` CSS function chooses a random numeric value within a specified ra
 - Firefox for Android: —
 - Safari: 26.2
 - Safari on iOS: 26.2
+
+**MDN:**
+- [random()](https://developer.mozilla.org/docs/Web/CSS/Reference/Values/random)
 
 ### reading-flow
 

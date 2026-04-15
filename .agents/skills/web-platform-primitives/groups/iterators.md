@@ -23,14 +23,7 @@ The `Iterator.concat()` JavaScript method returns an iterator that yields values
 **Spec:**
 - <https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.concat>
 
-**Limited Availability — Browser support:**
-- Chrome: 146
-- Chrome Android: 146
-- Edge: 146
-- Firefox: 147
-- Firefox for Android: 147
-- Safari: —
-- Safari on iOS: —
+**Baseline Newly Available since 2026-03-24**
 
 **MDN:**
 - [Iterator.concat()](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/concat)

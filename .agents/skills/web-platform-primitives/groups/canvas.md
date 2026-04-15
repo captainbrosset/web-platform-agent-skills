@@ -23,18 +23,6 @@ The optional `alpha` parameter of a 2D canvas's `getContext()` method sets wheth
 **MDN:**
 - [HTMLCanvasElement: getContext() method](https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/getContext)
 
-### Canvas createConicGradient()
-
-The `createConicGradient()` methods draw a conic gradient to a 2D canvas.
-
-**Spec:**
-- <https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-createconicgradient-dev>
-
-**Baseline Widely Available since 2025-10-11**
-
-**MDN:**
-- [CanvasRenderingContext2D: createConicGradient() method](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/createConicGradient)
-
 ### Canvas reset()
 
 The `reset()` method clears a canvas to its initial state.
@@ -46,18 +34,6 @@ The `reset()` method clears a canvas to its initial state.
 
 **MDN:**
 - [CanvasRenderingContext2D: reset() method](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/reset)
-
-### Canvas roundRect()
-
-The `roundRect()` methods draw a rounded rectangle to a 2D canvas.
-
-**Spec:**
-- <https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-roundrect>
-
-**Baseline Widely Available since 2025-10-11**
-
-**MDN:**
-- [CanvasRenderingContext2D: roundRect() method](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/roundRect)
 
 ### Color management for 2D canvas
 

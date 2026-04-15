@@ -33,7 +33,7 @@ Customized built-in elements are HTML elements that extend built-in elements usi
 - Safari on iOS: —
 
 **MDN:**
-- [HTML is global attribute](https://developer.mozilla.org/docs/Web/HTML/Reference/Global_attributes/is)
+- [`is` HTML global attribute](https://developer.mozilla.org/docs/Web/HTML/Reference/Global_attributes/is)
 
 ### Scoped custom element registries
 

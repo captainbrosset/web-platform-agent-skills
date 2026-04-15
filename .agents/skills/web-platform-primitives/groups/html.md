@@ -15,7 +15,7 @@ This group of web platform features also includes the following sub-categories, 
 
 ### `<meta name="theme-color">`
 
-The `name="theme-color"` attribute for the `<meta>` HTML element sets the preferred color to customize the display of the page or the surrounding browser user interface.
+The `name="theme-color"` attribute for the `<meta>` HTML element suggests a color that the browser can use to customize the display of the page or the browser user interface.
 
 **Spec:**
 - <https://html.spec.whatwg.org/multipage/semantics.html#meta-theme-color>
@@ -84,18 +84,6 @@ The `hidden="until-found"` attribute hides an element until it is found using th
 **MDN:**
 - [HTML hidden global attribute](https://developer.mozilla.org/docs/Web/HTML/Reference/Global_attributes/hidden)
 
-### inert
-
-The `inert` HTML attribute marks an element and its descendants as non-interactive. Inert elements don't get focus or fire `click` events.
-
-**Spec:**
-- <https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees>
-
-**Baseline Widely Available since 2025-10-11**
-
-**MDN:**
-- [HTML inert global attribute](https://developer.mozilla.org/docs/Web/HTML/Reference/Global_attributes/inert)
-
 ### Interest invokers
 
 Interest invokers, registered by the `interestfor` HTML attribute, trigger events and actions on a target element when a user shows interest in the element, through behaviors such as hover, focus, or long-press. Pseudo-elements apply styles to sources and targets of interest.
@@ -135,8 +123,8 @@ The `popover="hint"` global HTML attribute creates a popover that is subordinate
 - Chrome: 133
 - Chrome Android: 133
 - Edge: 133
-- Firefox: —
-- Firefox for Android: —
+- Firefox: 149
+- Firefox for Android: 149
 - Safari: —
 - Safari on iOS: —
 

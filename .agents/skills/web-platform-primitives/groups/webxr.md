@@ -137,6 +137,25 @@ The `getHitTestResults()` method of an `XRFrame` object helps place objects in a
 **MDN:**
 - [XRFrame: getHitTestResults() method](https://developer.mozilla.org/docs/Web/API/XRFrame/getHitTestResults)
 
+### Layers (WebXR)
+
+WebXR layer types, such as `XRCylinderLayer`, `XRCylinderLayer`, `XREquirectLayer`, `XRProjectionLayer` or `XRQuadLayer`, are managed by the system compositor, to reduce latency or resampling.
+
+**Spec:**
+- <https://immersive-web.github.io/layers/>
+
+**Limited Availability — Browser support:**
+- Chrome: 147
+- Chrome Android: 147
+- Edge: —
+- Firefox: —
+- Firefox for Android: —
+- Safari: —
+- Safari on iOS: —
+
+**MDN:**
+- [XRCompositionLayer](https://developer.mozilla.org/docs/Web/API/XRCompositionLayer)
+
 ### Lighting estimation
 
 The `XRLightProbe` and `XRLightEstimate` objects represent real-world environmental lighting conditions during a WebXR session.
